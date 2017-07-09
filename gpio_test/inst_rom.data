@@ -1,0 +1,44 @@
+66BC0800								//mov 	esp, 0x20000008					mov esp, 9	66 BC 09 00 00 00
+0020										  
+66B8ffff								
+ffff										//mov eax, 0xffffffff
+6650 	            			//push eax										
+66BC0C00								//mov		esp, 0x2000000c
+0020
+66B80000								
+0000										//mov eax, 0x00000000
+6650 	            			//push eax										
+66BC0400								//mov		esp, 0x20000004
+0020
+66B80641								
+4047										//mov eax, 0x47404106
+6650 	            			//push eax
+
+
+
+
+
+
+	   
+				
+
+
+
+
+
+
+
+					
+
+
+ 
+   
+  
+
+
+   
+ 
+   			
+   					
+
+  

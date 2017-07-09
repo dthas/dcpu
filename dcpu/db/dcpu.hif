@@ -1,0 +1,2054 @@
+Quartus II
+Version 10.1 Build 197 01/19/2011 Service Pack 1 SJ Web Edition
+14
+1046
+OFF
+OFF
+OFF
+ON
+ON
+ON
+FV_OFF
+Level2
+0
+0
+VRSM_ON
+VHSM_ON
+0
+-- Start Library Paths --
+-- End Library Paths --
+-- Start VHDL Libraries --
+-- End VHDL Libraries --
+# entity
+dcpu
+# storage
+db|dcpu.(0).cnf
+db|dcpu.(0).cnf
+# logic_option {
+AUTO_RAM_RECOGNITION
+ON
+}
+# case_sensitive
+# source_file
+dcpu.v
+965fba1e8a64d219b3ed25c6d2aea8
+8
+# internal_option {
+HDL_INITIAL_FANOUT_LIMIT
+OFF
+AUTO_RESOURCE_SHARING
+OFF
+AUTO_RAM_RECOGNITION
+ON
+AUTO_ROM_RECOGNITION
+ON
+IGNORE_VERILOG_INITIAL_CONSTRUCTS
+OFF
+VERILOG_CONSTANT_LOOP_LIMIT
+5000
+VERILOG_NON_CONSTANT_LOOP_LIMIT
+250
+}
+# include_file {
+defines.v
+37f3677e159f191fb35fb0f855f91e23
+}
+# hierarchies {
+|
+}
+# macro_sequence
+GPIO_IN_CH16GPIO_OUT_CH32WordAddrBus31:0 WordDataBus31:0WordAddrBus31:0 WordDataBus31:0WordAddrBus31:0 WordDataBus31:0WordAddrBus31:0 WordDataBus31:0WordAddrBus31:0 WordDataBus31:0WordDataBus31:0WordDataBus31:0WordDataBus31:0WordDataBus31:0WordDataBus31:0WordDataBus31:0WordDataBus31:0WordDataBus31:0WordDataBus31:0GpioAddrLoc1:0UartAddrLoc0:0
+# end
+# entity
+openmips
+# storage
+db|dcpu.(1).cnf
+db|dcpu.(1).cnf
+# logic_option {
+AUTO_RAM_RECOGNITION
+ON
+}
+# case_sensitive
+# source_file
+openmips.v
+22d15c9b33c54a992c949768fcc91fc
+8
+# internal_option {
+HDL_INITIAL_FANOUT_LIMIT
+OFF
+AUTO_RESOURCE_SHARING
+OFF
+AUTO_RAM_RECOGNITION
+ON
+AUTO_ROM_RECOGNITION
+ON
+IGNORE_VERILOG_INITIAL_CONSTRUCTS
+OFF
+VERILOG_CONSTANT_LOOP_LIMIT
+5000
+VERILOG_NON_CONSTANT_LOOP_LIMIT
+250
+}
+# include_file {
+defines.v
+37f3677e159f191fb35fb0f855f91e23
+}
+# hierarchies {
+openmips:openmips0
+}
+# macro_sequence
+WordDataBus31:0WordAddrBus31:0 WordDataBus31:0WordDataBus31:0WordAddrBus31:0 WordDataBus31:0InstBus31:0InstAddrBus31:0InstAddrBus31:0InstBus31:0AluOpBus7:0AluSelBus2:0RegBus31:0RegBus31:0RegAddrBus4:0AluOpBus7:0AluSelBus2:0RegBus31:0RegBus31:0RegAddrBus4:0RegAddrBus4:0RegBus31:0RegBus31:0AluOpBus7:0RegAddrBus4:0AluSelBus2:0RegAddrBus4:0RegBus31:0RegAddrBus4:0RegBus31:0RegAddrBus4:0RegBus31:0RegBus31:0RegBus31:0RegAddrBus4:0RegAddrBus4:0RegBus31:0RegBus31:0RegBus31:0InstAddrBus31:0InstAddrBus31:0InstAddrBus31:0AluOpBus7:0AluOpBus7:0InstAddrBus31:0InstAddrBus31:0InstAddrBus31:0InstAddrBus31:0InstAddrBus31:0RegBus6463:0RegBus6463:0RegBus6463:0RegBus6463:0RegBus6463:0RegBus6463:0RegBus6463:0RegBus6463:0RegBus6463:0RegBus6463:0RegBus6463:0RegBus6463:0RegBus6463:0RegBus6463:0RegBus6463:0RegBus6463:0RegBus6463:0RegBus6463:0RegBus6463:0RegBus6463:0RegBus6463:0RegBus6463:0RegBus6463:0RegBus6463:0InstAddrBus31:0InstAddrBus31:0InstAddrBus31:0InstAddrBus31:0ByteWidth7:0InstAddrBus31:0ByteWidth7:0InstAddrBus31:0InstAddrBus31:0InstAddrBus31:0InstAddrBus31:0ByteWidth7:0ByteWidth7:0WordWidth15:0RegBus31:0RegBus31:0RegBus31:0RegBus31:0DataBus6463:0DataBus6463:0
+# end
+# entity
+pc_reg
+# storage
+db|dcpu.(2).cnf
+db|dcpu.(2).cnf
+# logic_option {
+AUTO_RAM_RECOGNITION
+ON
+}
+# case_sensitive
+# source_file
+pc_reg.v
+468dcbea5922a9c179c97cbb557ee
+8
+# internal_option {
+HDL_INITIAL_FANOUT_LIMIT
+OFF
+AUTO_RESOURCE_SHARING
+OFF
+AUTO_RAM_RECOGNITION
+ON
+AUTO_ROM_RECOGNITION
+ON
+IGNORE_VERILOG_INITIAL_CONSTRUCTS
+OFF
+VERILOG_CONSTANT_LOOP_LIMIT
+5000
+VERILOG_NON_CONSTANT_LOOP_LIMIT
+250
+}
+# include_file {
+defines.v
+37f3677e159f191fb35fb0f855f91e23
+}
+# hierarchies {
+openmips:openmips0|pc_reg:pc_reg0
+}
+# macro_sequence
+InstAddrBus31:0InstAddrBus31:0InstAddrBus31:0InstAddrBus31:0ChipDisable1'b0NoStop1'b0True_v1'b1False_v1'b0False_v1'b0True_v1'b1True_v1'b1RstEnable1'b1ChipDisable1'b0ChipEnable1'b1
+# end
+# entity
+if_id
+# storage
+db|dcpu.(3).cnf
+db|dcpu.(3).cnf
+# logic_option {
+AUTO_RAM_RECOGNITION
+ON
+}
+# case_sensitive
+# source_file
+if_id.v
+a5f2d4f86eadd443796359d22cd253
+8
+# internal_option {
+HDL_INITIAL_FANOUT_LIMIT
+OFF
+AUTO_RESOURCE_SHARING
+OFF
+AUTO_RAM_RECOGNITION
+ON
+AUTO_ROM_RECOGNITION
+ON
+IGNORE_VERILOG_INITIAL_CONSTRUCTS
+OFF
+VERILOG_CONSTANT_LOOP_LIMIT
+5000
+VERILOG_NON_CONSTANT_LOOP_LIMIT
+250
+}
+# include_file {
+defines.v
+37f3677e159f191fb35fb0f855f91e23
+}
+# hierarchies {
+openmips:openmips0|if_id:if_id0
+}
+# macro_sequence
+InstAddrBus31:0InstBus31:0InstAddrBus31:0InstBus31:0RstEnable1'b1ZeroWord32'h00000000ZeroWord32'h00000000ZeroWord32'h00000000ZeroWord32'h00000000Stop1'b1NoStop1'b0ZeroWord32'h00000000ZeroWord32'h00000000NoStop1'b0
+# end
+# entity
+id
+# storage
+db|dcpu.(4).cnf
+db|dcpu.(4).cnf
+# logic_option {
+AUTO_RAM_RECOGNITION
+ON
+}
+# case_sensitive
+# source_file
+id.v
+1519f3ef25205ab3f476e650db2b43da
+8
+# internal_option {
+HDL_INITIAL_FANOUT_LIMIT
+OFF
+AUTO_RESOURCE_SHARING
+OFF
+AUTO_RAM_RECOGNITION
+ON
+AUTO_ROM_RECOGNITION
+ON
+IGNORE_VERILOG_INITIAL_CONSTRUCTS
+OFF
+VERILOG_CONSTANT_LOOP_LIMIT
+5000
+VERILOG_NON_CONSTANT_LOOP_LIMIT
+250
+}
+# include_file {
+defines.v
+37f3677e159f191fb35fb0f855f91e23
+}
+# hierarchies {
+openmips:openmips0|id:id0
+}
+# macro_sequence
+InstAddrBus31:0InstBus31:0RegBus31:0RegAddrBus4:0RegBus31:0RegAddrBus4:0RegBus31:0RegBus31:0RegAddrBus4:0RegAddrBus4:0AluOpBus7:0AluSelBus2:0RegBus31:0RegBus31:0RegAddrBus4:0RegBus31:0AluOpBus7:0AluSelBus2:0RegAddrBus4:0InstAddrBus31:0InstWidth95:0InstBus87:0						InstBus87:0						InstBus87:0						InstBus87:0						InstBus87:0						InstBus87:0						InstBus87:0						InstBus87:0						InstBus87:0						RegBus31:0InstLen96				ZeroWord32'h00000000ZeroWord32'h00000000False_v1'b0False_v1'b0RstEnable1'b1EXE_NOP_OP8'b00000000EXE_RES_NOP3'b000NOPRegAddr5'b00000WriteDisable1'b0InstValid1'b0NOPRegAddr5'b00000NOPRegAddr5'b00000NoStop1'b0InstLen96				ZeroWord32'h00000000ZeroWord32'h00000000ZeroWord32'h00000000ZeroWord32'h00000000ZeroWord32'h00000000False_v1'b0EXE_NOP_OP8'b00000000EXE_RES_NOP3'b000InstLen96				InstLen96				WriteDisable1'b0InstInValid1'b1NOPRegAddr5'b00000NOPRegAddr5'b00000ZeroWord32'h00000000ZeroWord32'h00000000ZeroWord32'h00000000ZeroWord32'h00000000True_v1'b1WriteEnable1'b1InstValid1'b0Num3232Num3232InstLen96				InstLen96				InstLen96				InstLen96				InstLen96				InstLen96				InstLen96				InstLen96				InstLen96				Num3232Num1616Num1616Num1616True_v1'b1True_v1'b1Num3232Num2424Num2424Num2424True_v1'b1False_v1'b0True_v1'b1False_v1'b0Num3232Num88Num88Num88True_v1'b1True_v1'b1Num3232Num1616Num1616Num1616True_v1'b1False_v1'b0True_v1'b1False_v1'b0Num3232Num2424Num2424Num2424False_v1'b0False_v1'b0True_v1'b1True_v1'b1Num3232Num88Num88Num88True_v1'b1False_v1'b0True_v1'b1False_v1'b0Num3232Num1616Num1616Num1616False_v1'b0False_v1'b0True_v1'b1False_v1'b0True_v1'b1False_v1'b0False_v1'b0True_v1'b1False_v1'b0True_v1'b1Num3232Num88Num88Num88False_v1'b0False_v1'b0Num3232Num1616Num1616Num1616False_v1'b0False_v1'b0Num3232Num3232False_v1'b0False_v1'b0InstLen96				InstLen96				InstLen96				InstLen96				InstLen96				InstLen96				InstLen96				InstLen96				Num1616Num3232Num1616Num3232Num1616True_v1'b1True_v1'b1Num88Num3232Num88Num3232Num88True_v1'b1False_v1'b0True_v1'b1False_v1'b0Num3232InstLen96				InstLen96				OPCODE_808'h80				InstLen96				InstLen96				AND_REG3'b100	WriteEnable1'b1EXE_AND_OP8'b00100100EXE_RES_LOGIC3'b001InstLen96				InstLen96				InstLen96				InstLen96				InstLen96				InstLen96				InstValid1'b0OR_REG3'b001WriteEnable1'b1EXE_OR_OP8'b00100101EXE_RES_LOGIC3'b001InstLen96				InstLen96				InstLen96				InstLen96				InstLen96				InstLen96				InstValid1'b0ADD_REG3'b000WriteEnable1'b1EXE_ADD_OP8'b00010000EXE_RES_ARITH3'b101InstLen96				InstLen96				InstLen96				InstLen96				InstLen96				InstLen96				InstValid1'b0SUB_REG3'b101WriteEnable1'b1EXE_SUB_OP8'b00010001EXE_RES_ARITH3'b101InstLen96				InstLen96				InstLen96				InstLen96				InstLen96				InstLen96				InstValid1'b0ADC_REG3'b010WriteEnable1'b1EXE_ADC_OP8'b00010010EXE_RES_ARITH3'b101InstLen96				InstLen96				InstLen96				InstLen96				InstLen96				InstLen96				InstValid1'b0SBB_REG3'b011WriteEnable1'b1EXE_SBB_OP8'b00010011EXE_RES_ARITH3'b101InstLen96				InstLen96				InstLen96				InstLen96				InstLen96				InstLen96				InstValid1'b0CMP_REG3'b111WriteEnable1'b1EXE_CMP_OP8'b00011100EXE_RES_ARITH3'b101InstLen96				InstLen96				InstLen96				InstLen96				InstLen96				InstLen96				EFLAGS5'b00010InstValid1'b0OPCODE_818'h81				InstLen96				InstLen96				AND_REG3'b100	WriteEnable1'b1EXE_AND_OP8'b00100100EXE_RES_LOGIC3'b001InstLen96				InstLen96				InstLen96				InstLen96				True_v1'b1InstLen96				InstLen96				LITTLE_END1'b1True_v1'b1InstLen96				InstLen96				LITTLE_END1'b1True_v1'b1InstValid1'b0OR_REG3'b001WriteEnable1'b1EXE_OR_OP8'b00100101EXE_RES_LOGIC3'b001InstLen96				InstLen96				InstLen96				InstLen96				True_v1'b1InstLen96				InstLen96				LITTLE_END1'b1True_v1'b1InstLen96				InstLen96				LITTLE_END1'b1True_v1'b1InstValid1'b0ADD_REG3'b000WriteEnable1'b1EXE_ADD_OP8'b00010000EXE_RES_ARITH3'b101InstLen96				InstLen96				InstLen96				InstLen96				True_v1'b1InstLen96				InstLen96				LITTLE_END1'b1True_v1'b1InstLen96				InstLen96				LITTLE_END1'b1True_v1'b1InstValid1'b0SUB_REG3'b101WriteEnable1'b1EXE_SUB_OP8'b00010001EXE_RES_ARITH3'b101InstLen96				InstLen96				InstLen96				InstLen96				True_v1'b1InstLen96				InstLen96				LITTLE_END1'b1True_v1'b1InstLen96				InstLen96				LITTLE_END1'b1True_v1'b1InstValid1'b0ADC_REG3'b010WriteEnable1'b1EXE_ADC_OP8'b00010010EXE_RES_ARITH3'b101InstLen96				InstLen96				InstLen96				InstLen96				True_v1'b1InstLen96				InstLen96				LITTLE_END1'b1True_v1'b1InstLen96				InstLen96				LITTLE_END1'b1True_v1'b1InstValid1'b0SBB_REG3'b011WriteEnable1'b1EXE_SBB_OP8'b00010011EXE_RES_ARITH3'b101InstLen96				InstLen96				InstLen96				InstLen96				True_v1'b1InstLen96				InstLen96				LITTLE_END1'b1True_v1'b1InstLen96				InstLen96				LITTLE_END1'b1True_v1'b1InstValid1'b0CMP_REG3'b111WriteEnable1'b1EXE_CMP_OP8'b00011100EXE_RES_ARITH3'b101InstLen96				InstLen96				InstLen96				InstLen96				True_v1'b1InstLen96				InstLen96				LITTLE_END1'b1True_v1'b1InstLen96				InstLen96				LITTLE_END1'b1True_v1'b1EFLAGS5'b00010InstValid1'b0OPCODE_838'h83				InstLen96				InstLen96				AND_REG3'b100	WriteEnable1'b1EXE_AND_OP8'b00100100EXE_RES_LOGIC3'b001InstLen96				InstLen96				InstLen96				InstLen96				True_v1'b1InstLen96				InstLen96				InstLen96				InstLen96				InstValid1'b0OR_REG3'b001WriteEnable1'b1EXE_OR_OP8'b00100101EXE_RES_LOGIC3'b001InstLen96				InstLen96				InstLen96				InstLen96				True_v1'b1InstLen96				InstLen96				InstLen96				InstLen96				InstValid1'b0ADD_REG3'b000WriteEnable1'b1EXE_ADD_OP8'b00010000EXE_RES_ARITH3'b101InstLen96				InstLen96				InstLen96				InstLen96				True_v1'b1InstLen96				InstLen96				InstLen96				InstLen96				InstValid1'b0SUB_REG3'b101WriteEnable1'b1EXE_SUB_OP8'b00010001EXE_RES_ARITH3'b101InstLen96				InstLen96				InstLen96				InstLen96				True_v1'b1InstLen96				InstLen96				InstLen96				InstLen96				InstValid1'b0ADC_REG3'b010WriteEnable1'b1EXE_ADC_OP8'b00010010EXE_RES_ARITH3'b101InstLen96				InstLen96				InstLen96				InstLen96				True_v1'b1InstLen96				InstLen96				InstLen96				InstLen96				InstValid1'b0SBB_REG3'b011WriteEnable1'b1EXE_SBB_OP8'b00010011EXE_RES_ARITH3'b101InstLen96				InstLen96				InstLen96				InstLen96				True_v1'b1InstLen96				InstLen96				InstLen96				InstLen96				InstValid1'b0CMP_REG3'b111WriteEnable1'b1EXE_CMP_OP8'b00011100EXE_RES_ARITH3'b101InstLen96				InstLen96				InstLen96				InstLen96				True_v1'b1InstLen96				InstLen96				InstLen96				InstLen96				EFLAGS5'b00010InstValid1'b0OPCODE_008'h00WriteEnable1'b1EXE_ADD_OP8'b00010000EXE_RES_ARITH3'b101InstLen96				InstLen96				InstLen96				InstLen96				InstLen96				InstLen96				InstValid1'b0OPCODE_018'h01WriteEnable1'b1EXE_ADD_OP8'b00010000EXE_RES_ARITH3'b101InstLen96				InstLen96				InstLen96				InstLen96				InstLen96				InstLen96				True_v1'b1InstValid1'b0OPCODE_028'h02WriteEnable1'b1EXE_ADD_OP8'b00010000EXE_RES_ARITH3'b101InstLen96				InstLen96				InstLen96				InstLen96				InstLen96				InstLen96				InstValid1'b0OPCODE_038'h03WriteEnable1'b1EXE_ADD_OP8'b00010000EXE_RES_ARITH3'b101InstLen96				InstLen96				InstLen96				InstLen96				InstLen96				InstLen96				True_v1'b1InstValid1'b0OPCODE_048'h04				WriteEnable1'b1EXE_ADD_OP8'b00010000EXE_RES_ARITH3'b101InstLen96				InstLen96				InstValid1'b0OPCODE_058'h05WriteEnable1'b1EXE_ADD_OP8'b00010000EXE_RES_ARITH3'b101True_v1'b1InstLen96				InstLen96				LITTLE_END1'b1True_v1'b1InstLen96				InstLen96				LITTLE_END1'b1True_v1'b1InstValid1'b0OPCODE_068'h06WriteEnable1'b1EXE_PUSH_REG16_OP8'b00101110EXE_RES_MOV3'b010ES5'b00110ESP5'b10011InstValid1'b0OPCODE_078'h07WriteEnable1'b1EXE_POP_REG16_OP8'b11110011EXE_RES_MOV3'b010ES5'b00110ESP5'b10011InstValid1'b0OPCODE_088'h08				WriteEnable1'b1EXE_OR_OP8'b00100101EXE_RES_LOGIC3'b001InstLen96				InstLen96				InstLen96				InstLen96				InstLen96				InstLen96				InstValid1'b0OPCODE_098'h09				WriteEnable1'b1EXE_OR_OP8'b00100101EXE_RES_LOGIC3'b001InstLen96				InstLen96				InstLen96				InstLen96				InstLen96				InstLen96				True_v1'b1InstValid1'b0OPCODE_0A8'h0A				WriteEnable1'b1EXE_OR_OP8'b00100101EXE_RES_LOGIC3'b001InstLen96				InstLen96				InstLen96				InstLen96				InstLen96				InstLen96				InstValid1'b0OPCODE_0B8'h0B				WriteEnable1'b1EXE_OR_OP8'b00100101EXE_RES_LOGIC3'b001InstLen96				InstLen96				InstLen96				InstLen96				InstLen96				InstLen96				True_v1'b1InstValid1'b0OPCODE_0C8'h0C				WriteEnable1'b1EXE_OR_OP8'b00100101EXE_RES_LOGIC3'b001InstLen96				InstLen96				InstValid1'b0OPCODE_0D8'h0D				WriteEnable1'b1EXE_OR_OP8'b00100101EXE_RES_LOGIC3'b001True_v1'b1InstLen96				InstLen96				LITTLE_END1'b1True_v1'b1InstLen96				InstLen96				LITTLE_END1'b1True_v1'b1InstValid1'b0OPCODE_0E8'h0EWriteEnable1'b1EXE_PUSH_REG16_OP8'b00101110EXE_RES_MOV3'b010CS5'b01010ESP5'b10011InstValid1'b0OPCODE_108'h10WriteEnable1'b1EXE_ADC_OP8'b00010010EXE_RES_ARITH3'b101InstLen96				InstLen96				InstLen96				InstLen96				InstLen96				InstLen96				InstValid1'b0OPCODE_118'h11WriteEnable1'b1EXE_ADC_OP8'b00010010EXE_RES_ARITH3'b101InstLen96				InstLen96				InstLen96				InstLen96				InstLen96				InstLen96				True_v1'b1InstValid1'b0OPCODE_128'h12WriteEnable1'b1EXE_ADC_OP8'b00010010EXE_RES_ARITH3'b101InstLen96				InstLen96				InstLen96				InstLen96				InstLen96				InstLen96				InstValid1'b0OPCODE_138'h13WriteEnable1'b1EXE_ADC_OP8'b00010010EXE_RES_ARITH3'b101InstLen96				InstLen96				InstLen96				InstLen96				InstLen96				InstLen96				True_v1'b1InstValid1'b0OPCODE_148'h14				WriteEnable1'b1EXE_ADC_OP8'b00010010EXE_RES_ARITH3'b101InstLen96				InstLen96				InstValid1'b0OPCODE_158'h15WriteEnable1'b1EXE_ADC_OP8'b00010010EXE_RES_ARITH3'b101True_v1'b1InstLen96				InstLen96				LITTLE_END1'b1True_v1'b1InstLen96				InstLen96				LITTLE_END1'b1True_v1'b1InstValid1'b0OPCODE_168'h16WriteEnable1'b1EXE_PUSH_REG16_OP8'b00101110EXE_RES_MOV3'b010SS5'b01110ESP5'b10011InstValid1'b0OPCODE_178'h17WriteEnable1'b1EXE_POP_REG16_OP8'b11110011EXE_RES_MOV3'b010SS5'b01110ESP5'b10011InstValid1'b0OPCODE_188'h18WriteEnable1'b1EXE_SBB_OP8'b00010011EXE_RES_ARITH3'b101InstLen96				InstLen96				InstLen96				InstLen96				InstLen96				InstLen96				InstValid1'b0OPCODE_198'h19WriteEnable1'b1EXE_SBB_OP8'b00010011EXE_RES_ARITH3'b101InstLen96				InstLen96				InstLen96				InstLen96				InstLen96				InstLen96				True_v1'b1InstValid1'b0OPCODE_1A8'h1A				WriteEnable1'b1EXE_SBB_OP8'b00010011EXE_RES_ARITH3'b101InstLen96				InstLen96				InstLen96				InstLen96				InstLen96				InstLen96				InstValid1'b0OPCODE_1B8'h1BWriteEnable1'b1EXE_SBB_OP8'b00010011EXE_RES_ARITH3'b101InstLen96				InstLen96				InstLen96				InstLen96				InstLen96				InstLen96				True_v1'b1InstValid1'b0OPCODE_1C8'h1CWriteEnable1'b1EXE_SBB_OP8'b00010011EXE_RES_ARITH3'b101InstLen96				InstLen96				InstValid1'b0OPCODE_1D8'h1DWriteEnable1'b1EXE_SBB_OP8'b00010011EXE_RES_ARITH3'b101True_v1'b1InstLen96				InstLen96				LITTLE_END1'b1True_v1'b1InstLen96				InstLen96				LITTLE_END1'b1True_v1'b1InstValid1'b0OPCODE_1E8'h1EWriteEnable1'b1EXE_PUSH_REG16_OP8'b00101110EXE_RES_MOV3'b010DS5'b10010ESP5'b10011InstValid1'b0OPCODE_1F8'h1FWriteEnable1'b1EXE_POP_REG16_OP8'b11110011EXE_RES_MOV3'b010DS5'b10010ESP5'b10011InstValid1'b0OPCODE_208'h20				WriteEnable1'b1EXE_AND_OP8'b00100100EXE_RES_LOGIC3'b001InstLen96				InstLen96				InstLen96				InstLen96				InstLen96				InstLen96				InstValid1'b0OPCODE_218'h21				WriteEnable1'b1EXE_AND_OP8'b00100100EXE_RES_LOGIC3'b001InstLen96				InstLen96				InstLen96				InstLen96				InstLen96				InstLen96				True_v1'b1InstValid1'b0OPCODE_248'h24				WriteEnable1'b1EXE_AND_OP8'b00100100EXE_RES_LOGIC3'b001InstLen96				InstLen96				InstValid1'b0OPCODE_258'h25				WriteEnable1'b1EXE_AND_OP8'b00100100EXE_RES_LOGIC3'b001True_v1'b1InstLen96				InstLen96				LITTLE_END1'b1True_v1'b1InstLen96				InstLen96				LITTLE_END1'b1True_v1'b1InstValid1'b0OPCODE_288'h28WriteEnable1'b1EXE_SUB_OP8'b00010001EXE_RES_ARITH3'b101InstLen96				InstLen96				InstLen96				InstLen96				InstLen96				InstLen96				InstValid1'b0OPCODE_298'h29WriteEnable1'b1EXE_SUB_OP8'b00010001EXE_RES_ARITH3'b101InstLen96				InstLen96				InstLen96				InstLen96				InstLen96				InstLen96				True_v1'b1InstValid1'b0OPCODE_2A8'h2A				WriteEnable1'b1EXE_SUB_OP8'b00010001EXE_RES_ARITH3'b101InstLen96				InstLen96				InstLen96				InstLen96				InstLen96				InstLen96				InstValid1'b0OPCODE_2B8'h2BWriteEnable1'b1EXE_SUB_OP8'b00010001EXE_RES_ARITH3'b101InstLen96				InstLen96				InstLen96				InstLen96				InstLen96				InstLen96				True_v1'b1InstValid1'b0OPCODE_2C8'h2CWriteEnable1'b1EXE_SUB_OP8'b00010001EXE_RES_ARITH3'b101InstLen96				InstLen96				InstValid1'b0OPCODE_2D8'h2DWriteEnable1'b1EXE_SUB_OP8'b00010001EXE_RES_ARITH3'b101True_v1'b1InstLen96				InstLen96				LITTLE_END1'b1True_v1'b1InstLen96				InstLen96				LITTLE_END1'b1True_v1'b1InstValid1'b0OPCODE_388'h38WriteEnable1'b1EXE_CMP_OP8'b00011100EXE_RES_ARITH3'b101InstLen96				InstLen96				InstLen96				InstLen96				InstLen96				InstLen96				EFLAGS5'b00010InstValid1'b0OPCODE_398'h39WriteEnable1'b1EXE_CMP_OP8'b00011100EXE_RES_ARITH3'b101InstLen96				InstLen96				InstLen96				InstLen96				InstLen96				InstLen96				True_v1'b1EFLAGS5'b00010InstValid1'b0OPCODE_3A8'h3AWriteEnable1'b1EXE_CMP_OP8'b00011100EXE_RES_ARITH3'b101InstLen96				InstLen96				InstLen96				InstLen96				InstLen96				InstLen96				EFLAGS5'b00010InstValid1'b0OPCODE_3B8'h3BWriteEnable1'b1EXE_CMP_OP8'b00011100EXE_RES_ARITH3'b101InstLen96				InstLen96				InstLen96				InstLen96				InstLen96				InstLen96				True_v1'b1EFLAGS5'b00010InstValid1'b0OPCODE_3C8'h3C				WriteEnable1'b1EXE_CMP_OP8'b00011100EXE_RES_ARITH3'b101InstLen96				InstLen96				EFLAGS5'b00010InstValid1'b0OPCODE_3D8'h3DWriteEnable1'b1EXE_CMP_OP8'b00011100EXE_RES_ARITH3'b101True_v1'b1InstLen96				InstLen96				LITTLE_END1'b1True_v1'b1InstLen96				InstLen96				LITTLE_END1'b1True_v1'b1EFLAGS5'b00010InstValid1'b0OPCODE_408'h40OPCODE_418'h41OPCODE_428'h42OPCODE_438'h43OPCODE_448'h44OPCODE_458'h45OPCODE_468'h46OPCODE_478'h47InstLen96				InstLen96				WriteEnable1'b1EXE_INC_OP8'b00010100EXE_RES_ARITH3'b101True_v1'b1InstValid1'b0OPCODE_488'h48OPCODE_498'h49OPCODE_4A8'h4AOPCODE_4B8'h4BOPCODE_4C8'h4COPCODE_4D8'h4DOPCODE_4E8'h4EOPCODE_4F8'h4FInstLen96				InstLen96				WriteEnable1'b1EXE_DEC_OP8'b00010101EXE_RES_ARITH3'b101True_v1'b1InstValid1'b0OPCODE_508'h50OPCODE_518'h51OPCODE_528'h52OPCODE_538'h53OPCODE_548'h54				OPCODE_558'h55OPCODE_568'h56OPCODE_578'h57InstLen96				InstLen96				WriteEnable1'b1EXE_RES_MOV3'b010True_v1'b1EXE_PUSH_REG32_OP8'b00101111EXE_PUSH_REG16_OP8'b00101110ESP5'b10011InstValid1'b0OPCODE_588'h58OPCODE_598'h59OPCODE_5A8'h5AOPCODE_5B8'h5BOPCODE_5C8'h5C				OPCODE_5D8'h5DOPCODE_5E8'h5EOPCODE_5F8'h5FInstLen96				InstLen96				WriteEnable1'b1EXE_RES_MOV3'b010True_v1'b1EXE_POP_REG32_OP8'b11110100EXE_POP_REG16_OP8'b11110011ESP5'b10011InstValid1'b0OPCODE_688'h68InstLen96				InstLen96				WriteEnable1'b1EXE_RES_MOV3'b010ESP5'b10011True_v1'b1EXE_PUSH_IMM32_OP8'b11110010InstLen96				InstLen96				LITTLE_END1'b1True_v1'b1EXE_PUSH_IMM16_OP8'b11110001InstLen96				InstLen96				LITTLE_END1'b1True_v1'b1InstValid1'b0OPCODE_6A8'h6AInstLen96				InstLen96				WriteEnable1'b1EXE_PUSH_IMM8_OP8'b11110000EXE_RES_MOV3'b010ESP5'b10011InstLen96				InstLen96				InstValid1'b0OPCODE_E38'hE3			WriteDisable1'b0EXE_JCXZ_OP_88'b10001001EXE_RES_JMP3'b110True_v1'b1ECX5'b00111CX5'b00101InstLen96				InstLen96				InstValid1'b0OPCODE_708'h70WriteDisable1'b0EXE_JO_OP_88'b10100000EXE_RES_JMP3'b110EFLAGS5'b00010InstLen96				InstLen96				InstValid1'b0OPCODE_718'h71WriteDisable1'b0EXE_JNO_OP_88'b10011100EXE_RES_JMP3'b110EFLAGS5'b00010InstLen96				InstLen96				InstValid1'b0OPCODE_728'h72WriteDisable1'b0EXE_JB_OP_88'b10000110EXE_RES_JMP3'b110EFLAGS5'b00010InstLen96				InstLen96				InstValid1'b0OPCODE_738'h73WriteDisable1'b0EXE_JAE_OP_88'b10000101EXE_RES_JMP3'b110EFLAGS5'b00010InstLen96				InstLen96				InstValid1'b0OPCODE_748'h74				WriteDisable1'b0EXE_JE_OP_88'b10001100EXE_RES_JMP3'b110EFLAGS5'b00010InstLen96				InstLen96				InstValid1'b0OPCODE_758'h75WriteDisable1'b0EXE_JNE_OP_88'b10010111EXE_RES_JMP3'b110EFLAGS5'b00010InstLen96				InstLen96				InstValid1'b0OPCODE_768'h76WriteDisable1'b0EXE_JNA_OP_88'b10010010EXE_RES_JMP3'b110EFLAGS5'b00010InstLen96				InstLen96				InstValid1'b0OPCODE_778'h77WriteDisable1'b0EXE_JA_OP_88'b10000100EXE_RES_JMP3'b110EFLAGS5'b00010InstLen96				InstLen96				InstValid1'b0OPCODE_788'h78WriteDisable1'b0EXE_JS_OP_88'b10100100EXE_RES_JMP3'b110EFLAGS5'b00010InstLen96				InstLen96				InstValid1'b0OPCODE_798'h79WriteDisable1'b0EXE_JNS_OP_88'b10011110EXE_RES_JMP3'b110EFLAGS5'b00010InstLen96				InstLen96				InstValid1'b0OPCODE_7A8'h7A				WriteDisable1'b0EXE_JP_OP_88'b10100001EXE_RES_JMP3'b110EFLAGS5'b00010InstLen96				InstLen96				InstValid1'b0OPCODE_7B8'h7BWriteDisable1'b0EXE_JNP_OP_88'b10011101EXE_RES_JMP3'b110EFLAGS5'b00010InstLen96				InstLen96				InstValid1'b0OPCODE_7C8'h7CWriteDisable1'b0EXE_JL_OP_88'b10001111EXE_RES_JMP3'b110EFLAGS5'b00010InstLen96				InstLen96				InstValid1'b0OPCODE_7D8'h7DWriteDisable1'b0EXE_JGE_OP_88'b10001110EXE_RES_JMP3'b110EFLAGS5'b00010InstLen96				InstLen96				InstValid1'b0OPCODE_7E8'h7E				WriteDisable1'b0EXE_JLE_OP_88'b10010001EXE_RES_JMP3'b110EFLAGS5'b00010InstLen96				InstLen96				InstValid1'b0OPCODE_7F8'h7FWriteDisable1'b0EXE_JG_OP_88'b10001101EXE_RES_JMP3'b110EFLAGS5'b00010InstLen96				InstLen96				InstValid1'b0OPCODE_0F8'h0F	InstLen96				InstLen96				OPCODE_008'h00InstLen96				InstLen96				STR_REG3'b001WriteDisable1'b0EXE_STR_OP8'b00000010EXE_RES_SYS3'b111InstLen96				InstLen96				InstLen96				InstLen96				InstLen96				InstLen96				InstLen96				InstLen96				InstValid1'b0LTR_REG3'b011WriteDisable1'b0EXE_LTR_OP8'b11111110EXE_RES_SYS3'b111InstLen96				InstLen96				InstLen96				InstLen96				InstLen96				InstLen96				InstLen96				InstLen96				InstValid1'b0SLDT_REG3'b000WriteDisable1'b0EXE_SLDT_OP8'b00000001EXE_RES_SYS3'b111InstLen96				InstLen96				InstLen96				InstLen96				InstLen96				InstLen96				InstLen96				InstLen96				InstValid1'b0LLDT_REG3'b010WriteDisable1'b0EXE_LLDT_OP8'b00000011EXE_RES_SYS3'b111InstLen96				InstLen96				InstLen96				InstLen96				InstLen96				InstLen96				InstLen96				InstLen96				InstValid1'b0OPCODE_018'h01InstLen96				InstLen96				SIDT_REG3'b001WriteEnable1'b1EXE_SIDT_OP8'b11111001EXE_RES_SYS3'b111InstLen96				InstLen96				InstValid1'b0LIDT_REG3'b011WriteEnable1'b1EXE_LIDT_OP8'b11111100EXE_RES_SYS3'b111InstLen96				InstLen96				InstValid1'b0SGDT_REG3'b000WriteEnable1'b1EXE_SGDT_OP8'b11111111EXE_RES_SYS3'b111InstLen96				InstLen96				InstValid1'b0LGDT_REG3'b010WriteEnable1'b1EXE_LGDT_OP8'b11111101EXE_RES_SYS3'b111InstLen96				InstLen96				InstValid1'b0OPCODE_058'h05WriteDisable1'b0EXE_SYSCALL_OP8'b00000100EXE_RES_SYS3'b111InstValid1'b0OPCODE_808'h80				WriteDisable1'b0EXE_RES_JMP3'b110True_v1'b1EFLAGS5'b00010EXE_JO_OP_328'b11100000InstLen96				InstLen96				EFLAGS5'b00010EXE_JO_OP_168'b11000000InstLen96				InstLen96				InstValid1'b0OPCODE_818'h81				WriteDisable1'b0EXE_RES_JMP3'b110True_v1'b1EFLAGS5'b00010EXE_JNO_OP_328'b11011100InstLen96				InstLen96				EFLAGS5'b00010EXE_JNO_OP_168'b10111100InstLen96				InstLen96				InstValid1'b0OPCODE_828'h82WriteDisable1'b0EXE_RES_JMP3'b110True_v1'b1EFLAGS5'b00010EXE_JB_OP_328'b11000111InstLen96				InstLen96				EFLAGS5'b00010EXE_JB_OP_168'b10100111InstLen96				InstLen96				InstValid1'b0OPCODE_838'h83				WriteDisable1'b0EXE_RES_JMP3'b110True_v1'b1EFLAGS5'b00010EXE_JAE_OP_328'b11000110InstLen96				InstLen96				EFLAGS5'b00010EXE_JAE_OP_168'b10100110InstLen96				InstLen96				InstValid1'b0OPCODE_848'h84				WriteDisable1'b0EXE_RES_JMP3'b110True_v1'b1EFLAGS5'b00010EXE_JE_OP_328'b11001101InstLen96				InstLen96				EFLAGS5'b00010EXE_JE_OP_168'b10101101InstLen96				InstLen96				InstValid1'b0OPCODE_858'h85WriteDisable1'b0EXE_RES_JMP3'b110True_v1'b1EFLAGS5'b00010EXE_JNE_OP_328'b11010111InstLen96				InstLen96				EFLAGS5'b00010EXE_JNE_OP_168'b10110111InstLen96				InstLen96				InstValid1'b0OPCODE_868'h86WriteDisable1'b0EXE_RES_JMP3'b110True_v1'b1EFLAGS5'b00010EXE_JB_OP_328'b11000111InstLen96				InstLen96				EFLAGS5'b00010EXE_JB_OP_168'b10100111InstLen96				InstLen96				InstValid1'b0OPCODE_878'h87WriteDisable1'b0EXE_RES_JMP3'b110True_v1'b1EFLAGS5'b00010EXE_JA_OP_328'b11100111InstLen96				InstLen96				EFLAGS5'b00010EXE_JA_OP_168'b11100110InstLen96				InstLen96				InstValid1'b0OPCODE_888'h88WriteDisable1'b0EXE_RES_JMP3'b110True_v1'b1EFLAGS5'b00010EXE_JS_OP_328'b11100100InstLen96				InstLen96				EFLAGS5'b00010EXE_JS_OP_168'b11000100InstLen96				InstLen96				InstValid1'b0OPCODE_898'h89WriteDisable1'b0EXE_RES_JMP3'b110True_v1'b1EFLAGS5'b00010EXE_JNS_OP_328'b11011110InstLen96				InstLen96				EFLAGS5'b00010EXE_JNS_OP_168'b10111110InstLen96				InstLen96				InstValid1'b0OPCODE_8A8'h8A				WriteDisable1'b0EXE_RES_JMP3'b110True_v1'b1EFLAGS5'b00010EXE_JP_OP_328'b11100001InstLen96				InstLen96				EFLAGS5'b00010EXE_JP_OP_168'b11000001InstLen96				InstLen96				InstValid1'b0OPCODE_8B8'h8BWriteDisable1'b0EXE_RES_JMP3'b110True_v1'b1EFLAGS5'b00010EXE_JNP_OP_328'b11011101InstLen96				InstLen96				EFLAGS5'b00010EXE_JNP_OP_168'b10111101InstLen96				InstLen96				InstValid1'b0OPCODE_8C8'h8CWriteDisable1'b0EXE_RES_JMP3'b110True_v1'b1EFLAGS5'b00010EXE_JL_OP_328'b11010000InstLen96				InstLen96				EFLAGS5'b00010EXE_JL_OP_168'b10110000InstLen96				InstLen96				InstValid1'b0OPCODE_8D8'h8DWriteDisable1'b0EXE_RES_JMP3'b110True_v1'b1EFLAGS5'b00010EXE_JGE_OP_328'b11001111InstLen96				InstLen96				EFLAGS5'b00010EXE_JGE_OP_168'b10101111InstLen96				InstLen96				InstValid1'b0OPCODE_8E8'h8E							WriteDisable1'b0EXE_RES_JMP3'b110True_v1'b1EFLAGS5'b00010EXE_JLE_OP_328'b11010001InstLen96				InstLen96				EFLAGS5'b00010EXE_JLE_OP_168'b10110001InstLen96				InstLen96				InstValid1'b0OPCODE_8F8'h8F	WriteDisable1'b0EXE_RES_JMP3'b110True_v1'b1EFLAGS5'b00010EXE_JG_OP_328'b11001110InstLen96				InstLen96				EFLAGS5'b00010EXE_JG_OP_168'b10101110InstLen96				InstLen96				InstValid1'b0OPCODE_A08'hA0					WriteEnable1'b1EXE_PUSH_REG16_OP8'b00101110EXE_RES_MOV3'b010FS5'b10110ESP5'b10011InstValid1'b0OPCODE_A18'hA1					WriteEnable1'b1EXE_POP_REG16_OP8'b11110011EXE_RES_MOV3'b010FS5'b10110ESP5'b10011InstValid1'b0OPCODE_A88'hA8					WriteEnable1'b1EXE_PUSH_REG16_OP8'b00101110EXE_RES_MOV3'b010GS5'b11010ESP5'b10011InstValid1'b0OPCODE_A98'hA9					WriteEnable1'b1EXE_POP_REG16_OP8'b11110011EXE_RES_MOV3'b010GS5'b11010ESP5'b10011InstValid1'b0OPCODE_888'h88WriteEnable1'b1EXE_MOV_REG_OP8'b00101101EXE_RES_MOV3'b010InstLen96				InstLen96				InstLen96				InstLen96				InstLen96				InstLen96				InstValid1'b0OPCODE_898'h89WriteEnable1'b1EXE_MOV_REG_OP8'b00101101EXE_RES_MOV3'b010InstLen96				InstLen96				InstLen96				InstLen96				InstLen96				InstLen96				True_v1'b1InstValid1'b0OPCODE_8D8'h8DWriteEnable1'b1EXE_LEA_OP8'b11111010EXE_RES_SYS3'b111InstLen96				InstLen96				InstLen96				InstLen96				InstLen96				InstLen96				True_v1'b1InstLen96				InstLen96				LITTLE_END1'b1True_v1'b1InstLen96				InstLen96				LITTLE_END1'b1True_v1'b1InstValid1'b0OPCODE_8F8'h8F	InstLen96				InstLen96				POP_REG3'b000WriteEnable1'b1EXE_RES_MOV3'b010InstLen96				InstLen96				InstLen96				InstLen96				True_v1'b1EXE_POP_REG32_OP8'b11110100EXE_POP_REG16_OP8'b11110011ESP5'b10011InstValid1'b0OPCODE_908'h90					WriteDisable1'b0EXE_NOP_OP8'b00000000EXE_RES_SYS3'b111InstValid1'b0OPCODE_B08'hB0OPCODE_B18'hB1OPCODE_B28'hB2OPCODE_B38'hB3OPCODE_B48'hB4OPCODE_B58'hB5OPCODE_B68'hB6OPCODE_B78'hB7InstLen96				InstLen96				WriteEnable1'b1EXE_MOV_IMM_OP8'b00101100EXE_RES_MOV3'b010InstLen96				InstLen96				InstValid1'b0OPCODE_B88'hB8OPCODE_B98'hB9OPCODE_BA8'hBAOPCODE_BB8'hBBOPCODE_BC8'hBCOPCODE_BD8'hBDOPCODE_BE8'hBEOPCODE_BF8'hBFInstLen96				InstLen96				WriteEnable1'b1EXE_MOV_IMM_OP8'b00101100EXE_RES_MOV3'b010True_v1'b1InstLen96				InstLen96				LITTLE_END1'b1True_v1'b1InstLen96				InstLen96				LITTLE_END1'b1True_v1'b1InstValid1'b0OPCODE_C38'hC3WriteDisable1'b0EXE_RET_OP_168'b11101100EXE_RES_MOV3'b010ESP5'b10011InstValid1'b0OPCODE_CB8'hC3WriteDisable1'b0EXE_RET_OP_328'b11101101EXE_RES_MOV3'b010ESP5'b10011InstValid1'b0OPCODE_C08'hC0			InstLen96				InstLen96				SAL_REG3'b100WriteEnable1'b1EXE_SAL_OP8'b00110000EXE_RES_SHIFT3'b011InstLen96				InstLen96				InstLen96				InstLen96				InstLen96				InstLen96				InstValid1'b0SAR_REG3'b111WriteEnable1'b1EXE_SAR_OP8'b00110001EXE_RES_SHIFT3'b011InstLen96				InstLen96				InstLen96				InstLen96				InstLen96				InstLen96				InstValid1'b0SHL_REG3'b100WriteEnable1'b1EXE_SHL_OP8'b00110010EXE_RES_SHIFT3'b011InstLen96				InstLen96				InstLen96				InstLen96				InstLen96				InstLen96				InstValid1'b0SHR_REG3'b101WriteEnable1'b1EXE_SHR_OP8'b00110011EXE_RES_SHIFT3'b011InstLen96				InstLen96				InstLen96				InstLen96				InstLen96				InstLen96				InstValid1'b0RCL_REG3'b010WriteEnable1'b1EXE_RCL_OP8'b00110100EXE_RES_SHIFT3'b011InstLen96				InstLen96				InstLen96				InstLen96				InstLen96				InstLen96				InstValid1'b0RCR_REG3'b011WriteEnable1'b1EXE_RCR_OP8'b00110101EXE_RES_SHIFT3'b011InstLen96				InstLen96				InstLen96				InstLen96				InstLen96				InstLen96				InstValid1'b0ROL_REG3'b000WriteEnable1'b1EXE_ROL_OP8'b00110110EXE_RES_SHIFT3'b011InstLen96				InstLen96				InstLen96				InstLen96				InstLen96				InstLen96				InstValid1'b0ROR_REG3'b001WriteEnable1'b1EXE_ROR_OP8'b00110111EXE_RES_SHIFT3'b011InstLen96				InstLen96				InstLen96				InstLen96				InstLen96				InstLen96				InstValid1'b0OPCODE_C18'hC1			InstLen96				InstLen96				SAL_REG3'b100WriteEnable1'b1EXE_SAL_OP8'b00110000EXE_RES_SHIFT3'b011InstLen96				InstLen96				InstLen96				InstLen96				True_v1'b1InstLen96				InstLen96				InstLen96				InstLen96				InstValid1'b0SAR_REG3'b111WriteEnable1'b1EXE_SAR_OP8'b00110001EXE_RES_SHIFT3'b011InstLen96				InstLen96				InstLen96				InstLen96				True_v1'b1InstLen96				InstLen96				InstLen96				InstLen96				InstValid1'b0SHL_REG3'b100WriteEnable1'b1EXE_SHL_OP8'b00110010EXE_RES_SHIFT3'b011InstLen96				InstLen96				InstLen96				InstLen96				True_v1'b1InstLen96				InstLen96				InstLen96				InstLen96				InstValid1'b0SHR_REG3'b101WriteEnable1'b1EXE_SHR_OP8'b00110011EXE_RES_SHIFT3'b011InstLen96				InstLen96				InstLen96				InstLen96				True_v1'b1InstLen96				InstLen96				InstLen96				InstLen96				InstValid1'b0RCL_REG3'b010WriteEnable1'b1EXE_RCL_OP8'b00110100EXE_RES_SHIFT3'b011InstLen96				InstLen96				InstLen96				InstLen96				True_v1'b1InstLen96				InstLen96				InstLen96				InstLen96				InstValid1'b0RCR_REG3'b011WriteEnable1'b1EXE_RCR_OP8'b00110101EXE_RES_SHIFT3'b011InstLen96				InstLen96				InstLen96				InstLen96				True_v1'b1InstLen96				InstLen96				InstLen96				InstLen96				InstValid1'b0ROL_REG3'b000WriteEnable1'b1EXE_ROL_OP8'b00110110EXE_RES_SHIFT3'b011InstLen96				InstLen96				InstLen96				InstLen96				True_v1'b1InstLen96				InstLen96				InstLen96				InstLen96				InstValid1'b0ROR_REG3'b001WriteEnable1'b1EXE_ROR_OP8'b00110111EXE_RES_SHIFT3'b011InstLen96				InstLen96				InstLen96				InstLen96				True_v1'b1InstLen96				InstLen96				InstLen96				InstLen96				InstValid1'b0OPCODE_C98'hC9					WriteEnable1'b1EXE_LEAVE_OP8'b11111011EXE_RES_SYS3'b111ESP5'b10011EBP5'b10111InstValid1'b0OPCODE_D08'hD0			InstLen96				InstLen96				SAL_REG3'b100WriteEnable1'b1EXE_SAL_OP8'b00110000EXE_RES_SHIFT3'b011InstLen96				InstLen96				InstLen96				InstLen96				InstValid1'b0SAR_REG3'b111WriteEnable1'b1EXE_SAR_OP8'b00110001EXE_RES_SHIFT3'b011InstLen96				InstLen96				InstLen96				InstLen96				InstValid1'b0SHL_REG3'b100WriteEnable1'b1EXE_SHL_OP8'b00110010EXE_RES_SHIFT3'b011InstLen96				InstLen96				InstLen96				InstLen96				InstValid1'b0SHR_REG3'b101WriteEnable1'b1EXE_SHR_OP8'b00110011EXE_RES_SHIFT3'b011InstLen96				InstLen96				InstLen96				InstLen96				InstValid1'b0RCL_REG3'b010WriteEnable1'b1EXE_RCL_OP8'b00110100EXE_RES_SHIFT3'b011InstLen96				InstLen96				InstLen96				InstLen96				InstValid1'b0RCR_REG3'b011WriteEnable1'b1EXE_RCR_OP8'b00110101EXE_RES_SHIFT3'b011InstLen96				InstLen96				InstLen96				InstLen96				InstValid1'b0ROL_REG3'b000WriteEnable1'b1EXE_ROL_OP8'b00110110EXE_RES_SHIFT3'b011InstLen96				InstLen96				InstLen96				InstLen96				InstValid1'b0ROR_REG3'b001WriteEnable1'b1EXE_ROR_OP8'b00110111EXE_RES_SHIFT3'b011InstLen96				InstLen96				InstLen96				InstLen96				InstValid1'b0OPCODE_D18'hD1			InstLen96				InstLen96				SAL_REG3'b100WriteEnable1'b1EXE_SAL_OP8'b00110000EXE_RES_SHIFT3'b011InstLen96				InstLen96				InstLen96				InstLen96				True_v1'b1InstValid1'b0SAR_REG3'b111WriteEnable1'b1EXE_SAR_OP8'b00110001EXE_RES_SHIFT3'b011InstLen96				InstLen96				InstLen96				InstLen96				True_v1'b1InstValid1'b0SHL_REG3'b100WriteEnable1'b1EXE_SHL_OP8'b00110010EXE_RES_SHIFT3'b011InstLen96				InstLen96				InstLen96				InstLen96				True_v1'b1InstValid1'b0SHR_REG3'b101WriteEnable1'b1EXE_SHR_OP8'b00110011EXE_RES_SHIFT3'b011InstLen96				InstLen96				InstLen96				InstLen96				True_v1'b1InstValid1'b0RCL_REG3'b010WriteEnable1'b1EXE_RCL_OP8'b00110100EXE_RES_SHIFT3'b011InstLen96				InstLen96				InstLen96				InstLen96				True_v1'b1InstValid1'b0RCR_REG3'b011WriteEnable1'b1EXE_RCR_OP8'b00110101EXE_RES_SHIFT3'b011InstLen96				InstLen96				InstLen96				InstLen96				True_v1'b1InstValid1'b0ROL_REG3'b000WriteEnable1'b1EXE_ROL_OP8'b00110110EXE_RES_SHIFT3'b011InstLen96				InstLen96				InstLen96				InstLen96				True_v1'b1InstValid1'b0ROR_REG3'b001WriteEnable1'b1EXE_ROR_OP8'b00110111EXE_RES_SHIFT3'b011InstLen96				InstLen96				InstLen96				InstLen96				True_v1'b1InstValid1'b0OPCODE_D28'hD2			InstLen96				InstLen96				SAL_REG3'b100WriteEnable1'b1EXE_SAL_OP8'b00110000EXE_RES_SHIFT3'b011InstLen96				InstLen96				InstLen96				InstLen96				CL5'b00100InstValid1'b0SAR_REG3'b111WriteEnable1'b1EXE_SAR_OP8'b00110001EXE_RES_SHIFT3'b011InstLen96				InstLen96				InstLen96				InstLen96				CL5'b00100InstValid1'b0SHL_REG3'b100WriteEnable1'b1EXE_SHL_OP8'b00110010EXE_RES_SHIFT3'b011InstLen96				InstLen96				InstLen96				InstLen96				CL5'b00100InstValid1'b0SHR_REG3'b101WriteEnable1'b1EXE_SHR_OP8'b00110011EXE_RES_SHIFT3'b011InstLen96				InstLen96				InstLen96				InstLen96				CL5'b00100InstValid1'b0RCL_REG3'b010WriteEnable1'b1EXE_RCL_OP8'b00110100EXE_RES_SHIFT3'b011InstLen96				InstLen96				InstLen96				InstLen96				CL5'b00100InstValid1'b0RCR_REG3'b011WriteEnable1'b1EXE_RCR_OP8'b00110101EXE_RES_SHIFT3'b011InstLen96				InstLen96				InstLen96				InstLen96				CL5'b00100InstValid1'b0ROL_REG3'b000WriteEnable1'b1EXE_ROL_OP8'b00110110EXE_RES_SHIFT3'b011InstLen96				InstLen96				InstLen96				InstLen96				CL5'b00100InstValid1'b0ROR_REG3'b001WriteEnable1'b1EXE_ROR_OP8'b00110111EXE_RES_SHIFT3'b011InstLen96				InstLen96				InstLen96				InstLen96				CL5'b00100InstValid1'b0OPCODE_D38'hD3			InstLen96				InstLen96				SAL_REG3'b100WriteEnable1'b1EXE_SAL_OP8'b00110000EXE_RES_SHIFT3'b011InstLen96				InstLen96				InstLen96				InstLen96				True_v1'b1CL5'b00100InstValid1'b0SAR_REG3'b111WriteEnable1'b1EXE_SAR_OP8'b00110001EXE_RES_SHIFT3'b011InstLen96				InstLen96				InstLen96				InstLen96				True_v1'b1CL5'b00100InstValid1'b0SHL_REG3'b100WriteEnable1'b1EXE_SHL_OP8'b00110010EXE_RES_SHIFT3'b011InstLen96				InstLen96				InstLen96				InstLen96				True_v1'b1CL5'b00100InstValid1'b0SHR_REG3'b101WriteEnable1'b1EXE_SHR_OP8'b00110011EXE_RES_SHIFT3'b011InstLen96				InstLen96				InstLen96				InstLen96				True_v1'b1CL5'b00100InstValid1'b0RCL_REG3'b010WriteEnable1'b1EXE_RCL_OP8'b00110100EXE_RES_SHIFT3'b011InstLen96				InstLen96				InstLen96				InstLen96				True_v1'b1CL5'b00100InstValid1'b0RCR_REG3'b011WriteEnable1'b1EXE_RCR_OP8'b00110101EXE_RES_SHIFT3'b011InstLen96				InstLen96				InstLen96				InstLen96				True_v1'b1CL5'b00100InstValid1'b0ROL_REG3'b000WriteEnable1'b1EXE_ROL_OP8'b00110110EXE_RES_SHIFT3'b011InstLen96				InstLen96				InstLen96				InstLen96				True_v1'b1CL5'b00100InstValid1'b0ROR_REG3'b001WriteEnable1'b1EXE_ROR_OP8'b00110111EXE_RES_SHIFT3'b011InstLen96				InstLen96				InstLen96				InstLen96				True_v1'b1CL5'b00100InstValid1'b0OPCODE_E08'hE0				WriteEnable1'b1EXE_LOOPNE_OP8'b11101000EXE_RES_JMP3'b110CX5'b00101InstLen96				InstLen96				InstValid1'b0OPCODE_E18'hE1WriteEnable1'b1EXE_LOOPE_OP8'b11101010EXE_RES_JMP3'b110CX5'b00101InstLen96				InstLen96				InstValid1'b0OPCODE_E28'hE2WriteEnable1'b1EXE_LOOP_OP8'b11101001EXE_RES_JMP3'b110CX5'b00101InstLen96				InstLen96				InstValid1'b0OPCODE_E88'hE8WriteEnable1'b1EXE_CALL_OP_328'b11101011EXE_RES_JMP3'b110InstLen96				InstLen96				LITTLE_END1'b1True_v1'b1ESP5'b10011InstValid1'b0OPCODE_E98'hE9				WriteDisable1'b0EXE_JMP_OP_328'b10000010EXE_RES_JMP3'b110InstLen96				InstLen96				InstValid1'b0OPCODE_EB8'hEBWriteDisable1'b0EXE_JMP_OP_88'b10000000EXE_RES_JMP3'b110InstLen96				InstLen96				InstValid1'b0OPCODE_F68'hF6				InstLen96				InstLen96				NOT_REG3'b010WriteEnable1'b1EXE_NOT_OP8'b00100110EXE_RES_LOGIC3'b001InstLen96				InstLen96				InstLen96				InstLen96				InstValid1'b0MUL_REG3'b100WriteEnable1'b1EXE_MUL_OP_88'b00010110EXE_RES_ARITH3'b101InstLen96				InstLen96				InstLen96				InstLen96				AL5'b00000AX5'b00001InstValid1'b0DIV_REG3'b110WriteEnable1'b1EXE_DIV_OP_88'b00011001EXE_RES_ARITH3'b101InstLen96				InstLen96				InstLen96				InstLen96				AX5'b00001AL5'b00000InstValid1'b0OPCODE_F78'hF7InstLen96				InstLen96				NOT_REG3'b010WriteEnable1'b1EXE_NOT_OP8'b00100110EXE_RES_LOGIC3'b001InstLen96				InstLen96				InstLen96				InstLen96				True_v1'b1InstValid1'b0MUL_REG3'b100WriteEnable1'b1EXE_RES_ARITH3'b101InstLen96				InstLen96				InstLen96				InstLen96				True_v1'b1EAX5'b00011EXE_MUL_OP_328'b00011000AX5'b00001EXE_MUL_OP_168'b00010111InstValid1'b0DIV_REG3'b110WriteEnable1'b1EXE_RES_ARITH3'b101InstLen96				InstLen96				InstLen96				InstLen96				True_v1'b1EAX5'b00011EXE_DIV_OP_328'b00011011AX5'b00001EXE_DIV_OP_168'b00011010InstValid1'b0OPCODE_F88'hF8					WriteEnable1'b1EXE_CLC_OP8'b11111000EXE_RES_SYS3'b111EFLAGS5'b00010InstValid1'b0OPCODE_F98'hF9					WriteEnable1'b1EXE_STC_OP8'b11110110EXE_RES_SYS3'b111EFLAGS5'b00010InstValid1'b0OPCODE_FA8'hFA					WriteEnable1'b1EXE_CLI_OP8'b11110111EXE_RES_SYS3'b111EFLAGS5'b00010InstValid1'b0OPCODE_FB8'hFB					WriteEnable1'b1EXE_STI_OP8'b11110101EXE_RES_SYS3'b111EFLAGS5'b00010InstValid1'b0OPCODE_FE8'hFEInstLen96				InstLen96				INC_REG3'b000WriteEnable1'b1EXE_INC_OP8'b00010100EXE_RES_ARITH3'b101InstLen96				InstLen96				InstLen96				InstLen96				InstValid1'b0DEC_REG3'b001WriteEnable1'b1EXE_DEC_OP8'b00010101EXE_RES_ARITH3'b101InstLen96				InstLen96				InstLen96				InstLen96				InstValid1'b0OPCODE_FF8'hFF						InstLen96				InstLen96				INC_REG3'b000WriteEnable1'b1EXE_INC_OP8'b00010100EXE_RES_ARITH3'b101InstLen96				InstLen96				InstLen96				InstLen96				True_v1'b1InstValid1'b0DEC_REG3'b001WriteEnable1'b1EXE_DEC_OP8'b00010101EXE_RES_ARITH3'b101InstLen96				InstLen96				InstLen96				InstLen96				True_v1'b1InstValid1'b0JMP_REG3'b100WriteDisable1'b0EXE_RES_JMP3'b110InstLen96				InstLen96				InstLen96				InstLen96				True_v1'b1EXE_JMP_OP_328'b10000010EXE_JMP_OP_168'b10000001InstValid1'b0PUSH_REG3'b110WriteEnable1'b1EXE_RES_MOV3'b010InstLen96				InstLen96				InstLen96				InstLen96				True_v1'b1EXE_PUSH_REG32_OP8'b00101111EXE_PUSH_REG16_OP8'b00101110ESP5'b10011InstValid1'b0CALL_REG3'b010WriteEnable1'b1EXE_RES_JMP3'b110InstLen96				InstLen96				InstLen96				InstLen96				True_v1'b1EXE_CALLREG_OP_328'b11101111EXE_CALLREG_OP_168'b11101110ESP5'b10011InstValid1'b0InstLen96				ZeroWord32'h00000000InstLen96				ZeroWord32'h00000000ZeroWord32'h00000000WriteDisable1'b0EXE_NOP_OP8'b00000000EXE_RES_NOP3'b000NOPRegAddr5'b00000NOPRegAddr5'b00000InstValid1'b0RstEnable1'b1ZeroWord32'h00000000ZeroWord32'h00000000RstEnable1'b1ZeroWord32'h00000000ZeroWord32'h00000000
+# end
+# entity
+regfile
+# storage
+db|dcpu.(5).cnf
+db|dcpu.(5).cnf
+# logic_option {
+AUTO_RAM_RECOGNITION
+ON
+}
+# case_sensitive
+# source_file
+regfile.v
+336331d81beb41298ebcaf455f5d47a5
+8
+# internal_option {
+HDL_INITIAL_FANOUT_LIMIT
+OFF
+AUTO_RESOURCE_SHARING
+OFF
+AUTO_RAM_RECOGNITION
+ON
+AUTO_ROM_RECOGNITION
+ON
+IGNORE_VERILOG_INITIAL_CONSTRUCTS
+OFF
+VERILOG_CONSTANT_LOOP_LIMIT
+5000
+VERILOG_NON_CONSTANT_LOOP_LIMIT
+250
+}
+# include_file {
+defines.v
+37f3677e159f191fb35fb0f855f91e23
+}
+# hierarchies {
+openmips:openmips0|regfile:regfile1
+}
+# macro_sequence
+RegAddrBus4:0RegBus31:0RegAddrBus4:0RegBus31:0RegAddrBus4:0RegBus31:0RegBus31:0RegNum32RstEnable1'b1WriteEnable1'b1RstEnable1'b1ZeroWord32'h00000000WriteEnable1'b1ReadEnable1'b1ReadEnable1'b1ZeroWord32'h00000000RstEnable1'b1ZeroWord32'h00000000WriteEnable1'b1ReadEnable1'b1ReadEnable1'b1ZeroWord32'h00000000
+# end
+# entity
+id_ex
+# storage
+db|dcpu.(6).cnf
+db|dcpu.(6).cnf
+# logic_option {
+AUTO_RAM_RECOGNITION
+ON
+}
+# case_sensitive
+# source_file
+id_ex.v
+d71925468319667cb59d4e876dfef0
+8
+# internal_option {
+HDL_INITIAL_FANOUT_LIMIT
+OFF
+AUTO_RESOURCE_SHARING
+OFF
+AUTO_RAM_RECOGNITION
+ON
+AUTO_ROM_RECOGNITION
+ON
+IGNORE_VERILOG_INITIAL_CONSTRUCTS
+OFF
+VERILOG_CONSTANT_LOOP_LIMIT
+5000
+VERILOG_NON_CONSTANT_LOOP_LIMIT
+250
+}
+# include_file {
+defines.v
+37f3677e159f191fb35fb0f855f91e23
+}
+# hierarchies {
+openmips:openmips0|id_ex:id_ex0
+}
+# macro_sequence
+AluOpBus7:0AluSelBus2:0RegBus31:0RegBus31:0RegAddrBus4:0AluOpBus7:0AluSelBus2:0RegBus31:0RegBus31:0RegAddrBus4:0InstAddrBus31:0InstAddrBus31:0RstEnable1'b1EXE_NOP_OP8'b00000000EXE_RES_NOP3'b000ZeroWord32'h00000000ZeroWord32'h00000000NOPRegAddr5'b00000WriteDisable1'b0ZeroWord32'h00000000EXE_NOP_OP8'b00000000EXE_RES_NOP3'b000ZeroWord32'h00000000ZeroWord32'h00000000NOPRegAddr5'b00000WriteDisable1'b0ZeroWord32'h00000000Stop1'b1NoStop1'b0EXE_NOP_OP8'b00000000EXE_RES_NOP3'b000ZeroWord32'h00000000ZeroWord32'h00000000NOPRegAddr5'b00000WriteDisable1'b0ZeroWord32'h00000000NoStop1'b0
+# end
+# entity
+ex
+# storage
+db|dcpu.(7).cnf
+db|dcpu.(7).cnf
+# logic_option {
+AUTO_RAM_RECOGNITION
+ON
+}
+# case_sensitive
+# source_file
+ex.v
+980466774262284d92645cfef849057
+8
+# internal_option {
+HDL_INITIAL_FANOUT_LIMIT
+OFF
+AUTO_RESOURCE_SHARING
+OFF
+AUTO_RAM_RECOGNITION
+ON
+AUTO_ROM_RECOGNITION
+ON
+IGNORE_VERILOG_INITIAL_CONSTRUCTS
+OFF
+VERILOG_CONSTANT_LOOP_LIMIT
+5000
+VERILOG_NON_CONSTANT_LOOP_LIMIT
+250
+}
+# include_file {
+defines.v
+37f3677e159f191fb35fb0f855f91e23
+}
+# hierarchies {
+openmips:openmips0|ex:ex0
+}
+# macro_sequence
+AluOpBus7:0AluSelBus2:0RegBus31:0RegBus31:0RegAddrBus4:0RegAddrBus4:0RegBus31:0RegBus31:0RegBus31:0RegBus31:0RegBus31:0AluOpBus7:0AluSelBus2:0RegAddrBus4:0InstAddrBus31:0InstAddrBus31:0InstAddrBus31:0AluOpBus7:0InstAddrBus31:0InstAddrBus31:0InstAddrBus31:0RegBus6463:0RegBus6463:0RegBus6463:0RegBus6463:0RegBus6463:0RegBus6463:0RegBus6463:0RegBus6463:0RegBus6463:0RegBus6463:0RegBus6463:0RegBus6463:0RegBus6463:0RegBus6463:0RegBus6463:0RegBus6463:0ByteWidth7:0InstAddrBus31:0WordWidth15:0RegBus31:0RegBus31:0RegBus31:0RegBus31:0RegBus31:0RegBus6463:0RegBus31:0RegBus31:0RegBus31:0RegBus31:0RegBus31:0RegBus31:0RegBus31:0RegBus6463:0RegBus6463:0RegBus6463:0RegBus6463:0AluOpBus7:0InstBus87:0						InstBus87:0						InstBus87:0						RstEnable1'b1ZeroWord32'h00000000ZeroWord32'h00000000False_v1'b0ZeroWord32'h00000000ZeroWord32'h00000000ZeroWord32'h00000000ZeroWord32'h00000000False_v1'b0EXE_NOP_OP8'b00000000EXE_RES_NOP3'b000NOPRegAddr5'b00000False_v1'b0ZeroDWord64'h0000000000000000ZeroWord32'h00000000EXE_NOP_OP8'b00000000ZeroWord32'h00000000ZeroWord32'h00000000ZeroWord32'h00000000ZeroWord32'h00000000ZeroWord32'h00000000ZeroWord32'h00000000ZeroWord32'h00000000ZeroWord32'h00000000ZeroWord32'h00000000ZeroWord32'h00000000EXE_NOP_OP8'b00000000False_v1'b0ZeroWord32'h00000000ZeroWord32'h00000000ZeroWord32'h00000000ZeroWord32'h00000000ZeroWord32'h00000000WriteDisable1'b0ZeroDWord64'h0000000000000000ZeroDWord64'h0000000000000000ZeroDWord64'h0000000000000000ZeroDWord64'h0000000000000000EXE_JMP_OP_88'b10000000True_v1'b1ZeroWord32'h00000000EXE_JMP_OP_168'b10000001True_v1'b1ZeroWord32'h00000000EXE_JMP_OP_328'b10000010True_v1'b1ZeroWord32'h00000000EXE_LOOPNE_OP8'b11101000ZF6True_v1'b1EXE_LOOPE_OP8'b11101010ZF6True_v1'b1EXE_LOOP_OP8'b11101001True_v1'b1EXE_JCXZ_OP_88'b10001001True_v1'b1ZeroWord32'h00000000EXE_CALL_OP_328'b11101011True_v1'b1EXE_CALLREG_OP_168'b11101110True_v1'b1EXE_CALLREG_OP_328'b11101111True_v1'b1EXE_RET_OP_168'b11101100EXE_RET_OP_328'b11101101EXE_JO_OP_88'b10100000OF11True_v1'b1ZeroWord32'h00000000EXE_JNO_OP_88'b10011100OF11True_v1'b1ZeroWord32'h00000000EXE_JB_OP_88'b10000110EXE_JC_OP_88'b10001000EXE_JNAE_OP_88'b10010011CF5'b00000True_v1'b1ZeroWord32'h00000000EXE_JAE_OP_88'b10000101EXE_JNB_OP_88'b10010100EXE_JNC_OP_88'b10010110CF5'b00000True_v1'b1ZeroWord32'h00000000EXE_JE_OP_88'b10001100EXE_JZ_OP_88'b10100101ZF6True_v1'b1ZeroWord32'h00000000EXE_JNE_OP_88'b10010111EXE_JNZ_OP_88'b10011111ZF6True_v1'b1ZeroWord32'h00000000EXE_JBE_OP_88'b10000111EXE_JNA_OP_88'b10010010CF5'b00000ZF6True_v1'b1ZeroWord32'h00000000EXE_JA_OP_88'b10000100EXE_JNBE_OP_88'b10010101CF5'b00000ZF6True_v1'b1ZeroWord32'h00000000EXE_JS_OP_88'b10100100PF2True_v1'b1ZeroWord32'h00000000EXE_JNS_OP_88'b10011110PF2True_v1'b1ZeroWord32'h00000000EXE_JP_OP_88'b10100001EXE_JPE_OP_88'b10100010PF2True_v1'b1ZeroWord32'h00000000EXE_JNP_OP_88'b10011101EXE_JPO_OP_88'b10100011PF2True_v1'b1ZeroWord32'h00000000EXE_JL_OP_88'b10001111EXE_JNGE_OP_88'b10011001OF11SF7True_v1'b1ZeroWord32'h00000000EXE_JGE_OP_88'b10001110EXE_JNL_OP_88'b10011010OF11SF7True_v1'b1ZeroWord32'h00000000EXE_JLE_OP_88'b10010001EXE_JNG_OP_88'b10011000OF11ZF6SF7True_v1'b1ZeroWord32'h00000000EXE_JG_OP_88'b10001101EXE_JNLE_OP_88'b10011011OF11ZF6SF7True_v1'b1ZeroWord32'h00000000EXE_JO_OP_168'b11000000OF11True_v1'b1ZeroWord32'h00000000EXE_JNO_OP_168'b10111100OF11True_v1'b1ZeroWord32'h00000000EXE_JB_OP_168'b10100111EXE_JC_OP_168'b10101001EXE_JNAE_OP_168'b10110011CF5'b00000True_v1'b1ZeroWord32'h00000000EXE_JAE_OP_168'b10100110EXE_JNB_OP_168'b10110100EXE_JNC_OP_168'b10110110CF5'b00000True_v1'b1ZeroWord32'h00000000EXE_JE_OP_168'b10101101EXE_JZ_OP_168'b11000101ZF6True_v1'b1ZeroWord32'h00000000EXE_JNE_OP_168'b10110111EXE_JNZ_OP_168'b10111111ZF6True_v1'b1ZeroWord32'h00000000EXE_JBE_OP_168'b10101000EXE_JNA_OP_168'b10110010CF5'b00000ZF6True_v1'b1ZeroWord32'h00000000EXE_JA_OP_168'b11100110EXE_JNBE_OP_168'b10110101CF5'b00000ZF6True_v1'b1ZeroWord32'h00000000EXE_JS_OP_168'b11000100PF2True_v1'b1ZeroWord32'h00000000EXE_JNS_OP_168'b10111110PF2True_v1'b1ZeroWord32'h00000000EXE_JP_OP_168'b11000001EXE_JPE_OP_168'b11000010PF2True_v1'b1ZeroWord32'h00000000EXE_JNP_OP_168'b10111101EXE_JPO_OP_168'b11000011PF2True_v1'b1ZeroWord32'h00000000EXE_JL_OP_168'b10110000EXE_JNGE_OP_168'b10111001OF11SF7True_v1'b1ZeroWord32'h00000000EXE_JGE_OP_168'b10101111EXE_JNL_OP_168'b10111010OF11SF7True_v1'b1ZeroWord32'h00000000EXE_JLE_OP_168'b10110001EXE_JNG_OP_168'b10111000OF11ZF6SF7True_v1'b1ZeroWord32'h00000000EXE_JG_OP_168'b10101110EXE_JNLE_OP_168'b10111011OF11ZF6SF7True_v1'b1ZeroWord32'h00000000EXE_JO_OP_328'b11100000OF11True_v1'b1ZeroWord32'h00000000EXE_JNO_OP_328'b11011100OF11True_v1'b1ZeroWord32'h00000000EXE_JB_OP_328'b11000111EXE_JC_OP_328'b11001001EXE_JNAE_OP_328'b11010011CF5'b00000True_v1'b1ZeroWord32'h00000000EXE_JAE_OP_328'b11000110EXE_JNB_OP_328'b11010100EXE_JNC_OP_328'b11010110CF5'b00000True_v1'b1ZeroWord32'h00000000EXE_JE_OP_328'b11001101EXE_JZ_OP_328'b11100101ZF6True_v1'b1ZeroWord32'h00000000EXE_JNE_OP_328'b11010111EXE_JNZ_OP_328'b11011111ZF6True_v1'b1ZeroWord32'h00000000EXE_JBE_OP_328'b11001000EXE_JNA_OP_328'b11010010CF5'b00000ZF6True_v1'b1ZeroWord32'h00000000EXE_JA_OP_328'b11100111EXE_JNBE_OP_328'b11010101CF5'b00000ZF6True_v1'b1ZeroWord32'h00000000EXE_JS_OP_328'b11100100PF2True_v1'b1ZeroWord32'h00000000EXE_JNS_OP_328'b11011110PF2True_v1'b1ZeroWord32'h00000000EXE_JP_OP_328'b11100001EXE_JPE_OP_328'b11100010PF2True_v1'b1ZeroWord32'h00000000EXE_JNP_OP_328'b11011101EXE_JPO_OP_328'b11100011PF2True_v1'b1ZeroWord32'h00000000EXE_JL_OP_328'b11010000EXE_JNGE_OP_328'b11011001OF11SF7True_v1'b1ZeroWord32'h00000000EXE_JGE_OP_328'b11001111EXE_JNL_OP_328'b11011010OF11SF7True_v1'b1ZeroWord32'h00000000EXE_JLE_OP_328'b11010001EXE_JNG_OP_328'b11011000OF11ZF6SF7True_v1'b1ZeroWord32'h00000000EXE_JG_OP_328'b11001110EXE_JNLE_OP_328'b11011011OF11ZF6SF7True_v1'b1ZeroWord32'h00000000EXE_ADD_OP8'b00010000CF5'b00000True_v1'b1EXE_CF_SET8'b01000000EXE_RES_EXP3'b100EFLAGS5'b00010EXE_SUB_OP8'b00010001CF5'b00000True_v1'b1EXE_CF_SET8'b01000000EXE_RES_EXP3'b100EFLAGS5'b00010EXE_ADC_OP8'b00010010CF5'b00000CF5'b00000True_v1'b1EXE_CF_SET8'b01000000EXE_RES_EXP3'b100EFLAGS5'b00010EXE_SBB_OP8'b00010011CF5'b00000CF5'b00000True_v1'b1EXE_CF_SET8'b01000000EXE_RES_EXP3'b100EFLAGS5'b00010EXE_INC_OP8'b00010100CF5'b00000True_v1'b1EXE_CF_SET8'b01000000EXE_RES_EXP3'b100EFLAGS5'b00010EXE_DEC_OP8'b00010101CF5'b00000True_v1'b1EXE_CF_SET8'b01000000EXE_RES_EXP3'b100EFLAGS5'b00010EXE_MUL_OP_88'b00010110EXE_MUL_OP_168'b00010111True_v1'b1EXE_MUL_SET8'b01000001EXE_RES_EXP3'b100DX5'b01001EXE_MUL_OP_328'b00011000True_v1'b1EXE_MUL_SET8'b01000001EXE_RES_EXP3'b100EDX5'b01011EXE_DIV_OP_88'b00011001True_v1'b1Stop1'b1EXE_DIV_OP_88'b00011001EXE_DIV_OP_168'b00011010True_v1'b1Stop1'b1EXE_DIV_OP_168'b00011010EXE_DIV_OP_328'b00011011True_v1'b1Stop1'b1EXE_DIV_OP_328'b00011011EXE_CMP_OP8'b00011100CF5'b00000ZF6ZF6ZF6CF5'b00000EXE_AND_OP8'b00100100EXE_OR_OP8'b00100101EXE_NOT_OP8'b00100110EXE_MOV_IMM_OP8'b00101100EXE_MOV_REG_OP8'b00101101EXE_PUSH_REG16_OP8'b00101110EXE_PUSH_REG32_OP8'b00101111EXE_POP_REG16_OP8'b11110011True_v1'b1EXE_ESP_SET8'b01000011EXE_RES_EXP3'b100ESP5'b10011EXE_POP_REG32_OP8'b11110100True_v1'b1EXE_ESP_SET8'b01000011EXE_RES_EXP3'b100ESP5'b10011EXE_SAL_OP8'b00110000EXE_SAR_OP8'b00110001EXE_SHL_OP8'b00110010EXE_SHR_OP8'b00110011EXE_RCL_OP8'b00110100CF5'b00000CF5'b00000CF5'b00000CF5'b00000CF5'b00000CF5'b00000CF5'b00000CF5'b00000CF5'b00000CF5'b00000CF5'b00000CF5'b00000CF5'b00000CF5'b00000CF5'b00000CF5'b00000CF5'b00000CF5'b00000CF5'b00000CF5'b00000CF5'b00000CF5'b00000CF5'b00000CF5'b00000CF5'b00000CF5'b00000CF5'b00000CF5'b00000CF5'b00000CF5'b00000CF5'b00000CF5'b00000True_v1'b1EXE_CF_SET8'b01000000EXE_RES_EXP3'b100EFLAGS5'b00010EXE_RCR_OP8'b00110101CF5'b00000CF5'b00000CF5'b00000CF5'b00000CF5'b00000CF5'b00000CF5'b00000CF5'b00000CF5'b00000CF5'b00000CF5'b00000CF5'b00000CF5'b00000CF5'b00000CF5'b00000CF5'b00000CF5'b00000CF5'b00000CF5'b00000CF5'b00000CF5'b00000CF5'b00000CF5'b00000CF5'b00000CF5'b00000CF5'b00000CF5'b00000CF5'b00000CF5'b00000CF5'b00000CF5'b00000CF5'b00000True_v1'b1EXE_CF_SET8'b01000000EXE_RES_EXP3'b100EFLAGS5'b00010EXE_ROL_OP8'b00110110CF5'b00000CF5'b00000CF5'b00000CF5'b00000CF5'b00000CF5'b00000CF5'b00000CF5'b00000CF5'b00000CF5'b00000CF5'b00000CF5'b00000CF5'b00000CF5'b00000CF5'b00000CF5'b00000CF5'b00000CF5'b00000CF5'b00000CF5'b00000CF5'b00000CF5'b00000CF5'b00000CF5'b00000CF5'b00000CF5'b00000CF5'b00000CF5'b00000CF5'b00000CF5'b00000CF5'b00000CF5'b00000True_v1'b1EXE_CF_SET8'b01000000EXE_RES_EXP3'b100EFLAGS5'b00010EXE_ROR_OP8'b00110111CF5'b00000CF5'b00000CF5'b00000CF5'b00000CF5'b00000CF5'b00000CF5'b00000CF5'b00000CF5'b00000CF5'b00000CF5'b00000CF5'b00000CF5'b00000CF5'b00000CF5'b00000CF5'b00000CF5'b00000CF5'b00000CF5'b00000CF5'b00000CF5'b00000CF5'b00000CF5'b00000CF5'b00000CF5'b00000CF5'b00000CF5'b00000CF5'b00000CF5'b00000CF5'b00000CF5'b00000CF5'b00000True_v1'b1EXE_CF_SET8'b01000000EXE_RES_EXP3'b100EFLAGS5'b00010EXE_NOP_OP8'b00000000ZeroWord32'h00000000EXE_STI_OP8'b11110101IF9EXE_CLI_OP8'b11110111IF9EXE_STC_OP8'b11110110OF11EXE_CLC_OP8'b11111000OF11EXE_LEA_OP8'b11111010EXE_LEAVE_OP8'b11111011True_v1'b1EXE_ESP_SET8'b01000011EXE_RES_EXP3'b100ESP5'b10011EXE_SIDT_OP8'b11111001WriteEnable1'b1EXE_LIDT_OP8'b11111100WriteEnable1'b1EXE_SGDT_OP8'b11111111WriteEnable1'b1EXE_LGDT_OP8'b11111101WriteEnable1'b1EXE_STR_OP8'b00000010WriteEnable1'b1EXE_LTR_OP8'b11111110WriteEnable1'b1EXE_SLDT_OP8'b00000001WriteEnable1'b1EXE_LLDT_OP8'b00000011WriteEnable1'b1EXE_ADD_OP8'b00010000EXE_ADC_OP8'b00010010EXE_INC_OP8'b00010100EXE_MUL_OP_88'b00010110EXE_MUL_OP_168'b00010111EXE_MUL_OP_328'b00011000EXE_SYSCALL_OP8'b00000100EXE_CF_SET8'b01000000False_v1'b0EXE_MUL_SET8'b01000001False_v1'b0EXE_DIV_SET8'b01000010False_v1'b0EXE_ESP_SET8'b01000011False_v1'b0ZeroWord32'h00000000False_v1'b0ZeroWord32'h00000000ZeroWord32'h00000000ZeroWord32'h00000000ZeroDWord64'h0000000000000000ZeroWord32'h00000000False_v1'b0ZeroWord32'h00000000ZeroWord32'h00000000ZeroWord32'h00000000ZeroWord32'h00000000ZeroWord32'h00000000ZeroWord32'h00000000ZeroWord32'h00000000ZeroWord32'h00000000ZeroWord32'h00000000WriteEnable1'b1WriteEnable1'b1DIV_STATE_23NoStop1'b0False_v1'b0True_v1'b1EXE_RES_EXP3'b100EXE_DIV_OP_88'b00011001AL5'b00000EXE_DIV_SET8'b01000010EXE_DIV_OP_168'b00011010AX5'b00001EXE_DIV_SET8'b01000010EXE_DIV_OP_328'b00011011EAX5'b00011EXE_DIV_SET8'b01000010EXP_3232EXE_RES_LOGIC3'b001EXE_RES_MOV3'b010ESP5'b10011EXE_RES_SHIFT3'b011EXE_RES_ARITH3'b101EXE_RES_EXP3'b100EXE_RES_JMP3'b110EXE_RES_SYS3'b111ZeroWord32'h00000000
+# end
+# entity
+ex_mem
+# storage
+db|dcpu.(8).cnf
+db|dcpu.(8).cnf
+# logic_option {
+AUTO_RAM_RECOGNITION
+ON
+}
+# case_sensitive
+# source_file
+ex_mem.v
+d209f24d5aa9737bb6fa619b48392e
+8
+# internal_option {
+HDL_INITIAL_FANOUT_LIMIT
+OFF
+AUTO_RESOURCE_SHARING
+OFF
+AUTO_RAM_RECOGNITION
+ON
+AUTO_ROM_RECOGNITION
+ON
+IGNORE_VERILOG_INITIAL_CONSTRUCTS
+OFF
+VERILOG_CONSTANT_LOOP_LIMIT
+5000
+VERILOG_NON_CONSTANT_LOOP_LIMIT
+250
+}
+# include_file {
+defines.v
+37f3677e159f191fb35fb0f855f91e23
+}
+# hierarchies {
+openmips:openmips0|ex_mem:ex_mem0
+}
+# macro_sequence
+RegAddrBus4:0RegBus31:0AluOpBus7:0InstAddrBus31:0InstAddrBus31:0AluOpBus7:0InstAddrBus31:0InstAddrBus31:0RegBus6463:0RegBus6463:0RegBus6463:0RegBus6463:0RegBus6463:0RegBus6463:0RegBus6463:0RegBus6463:0InstAddrBus31:0InstAddrBus31:0InstAddrBus31:0InstAddrBus31:0ByteWidth7:0ByteWidth7:0InstAddrBus31:0InstAddrBus31:0RegAddrBus4:0RegBus31:0RstEnable1'b1NOPRegAddr5'b00000WriteDisable1'b0ZeroWord32'h00000000EXE_NOP_OP8'b00000000ZeroWord32'h00000000ZeroWord32'h00000000ZeroWord32'h00000000ZeroWord32'h00000000ZeroWord32'h00000000ZeroDWord64'h0000000000000000ZeroDWord64'h0000000000000000ZeroDWord64'h0000000000000000ZeroDWord64'h0000000000000000WriteDisable1'b0NOPRegAddr5'b00000WriteDisable1'b0ZeroWord32'h00000000EXE_NOP_OP8'b00000000ZeroWord32'h00000000ZeroWord32'h00000000ZeroWord32'h00000000ZeroWord32'h00000000ZeroWord32'h00000000ZeroDWord64'h0000000000000000ZeroDWord64'h0000000000000000ZeroDWord64'h0000000000000000ZeroDWord64'h0000000000000000WriteDisable1'b0Stop1'b1NoStop1'b0NOPRegAddr5'b00000WriteDisable1'b0ZeroWord32'h00000000EXE_NOP_OP8'b00000000ZeroWord32'h00000000ZeroWord32'h00000000ZeroWord32'h00000000ZeroWord32'h00000000ZeroWord32'h00000000ZeroDWord64'h0000000000000000ZeroDWord64'h0000000000000000ZeroDWord64'h0000000000000000ZeroDWord64'h0000000000000000WriteDisable1'b0NoStop1'b0Stop1'b1NOPRegAddr5'b00000WriteDisable1'b0ZeroWord32'h00000000EXE_NOP_OP8'b00000000ZeroWord32'h00000000ZeroWord32'h00000000ZeroWord32'h00000000ZeroWord32'h00000000ZeroWord32'h00000000ZeroDWord64'h0000000000000000ZeroDWord64'h0000000000000000ZeroDWord64'h0000000000000000ZeroDWord64'h0000000000000000WriteDisable1'b0
+# end
+# entity
+mem
+# storage
+db|dcpu.(9).cnf
+db|dcpu.(9).cnf
+# logic_option {
+AUTO_RAM_RECOGNITION
+ON
+}
+# case_sensitive
+# source_file
+mem.v
+a02b4992258d4ffd4b6b881ac989df
+8
+# internal_option {
+HDL_INITIAL_FANOUT_LIMIT
+OFF
+AUTO_RESOURCE_SHARING
+OFF
+AUTO_RAM_RECOGNITION
+ON
+AUTO_ROM_RECOGNITION
+ON
+IGNORE_VERILOG_INITIAL_CONSTRUCTS
+OFF
+VERILOG_CONSTANT_LOOP_LIMIT
+5000
+VERILOG_NON_CONSTANT_LOOP_LIMIT
+250
+}
+# include_file {
+defines.v
+37f3677e159f191fb35fb0f855f91e23
+}
+# hierarchies {
+openmips:openmips0|mem:mem0
+}
+# macro_sequence
+RegAddrBus4:0RegBus31:0AluOpBus7:0InstAddrBus31:0InstAddrBus31:0DataBus31:0DataAddrBus31:0DataBus31:0InstAddrBus31:0DataBus6463:0DataBus6463:0RegBus6463:0RegBus6463:0RegBus6463:0RegBus6463:0RegBus6463:0RegBus6463:0RegBus6463:0RegBus6463:0InstAddrBus31:0InstAddrBus31:0ByteWidth7:0InstAddrBus31:0InstAddrBus31:0InstAddrBus31:0InstAddrBus31:0RegAddrBus4:0RegBus31:0RegBus31:0RstEnable1'b1NOPRegAddr5'b00000WriteDisable1'b0ZeroWord32'h00000000ZeroWord32'h00000000False_v1'b0WriteDisable1'b0ZeroWord32'h00000000False_v1'b0ZeroWord32'h00000000EXE_PUSH_REG16_OP8'b00101110WriteEnable1'b1ChipEnable1'b1False_v1'b0EXE_PUSH_REG32_OP8'b00101111WriteEnable1'b1ChipEnable1'b1False_v1'b0EXE_POP_REG16_OP8'b11110011WriteDisable1'b0ChipEnable1'b1False_v1'b0EXE_POP_REG32_OP8'b11110100WriteDisable1'b0ChipEnable1'b1False_v1'b0EXE_CALL_OP_328'b11101011WriteEnable1'b1ChipEnable1'b1False_v1'b0EXE_CALLREG_OP_168'b11101110WriteEnable1'b1ChipEnable1'b1False_v1'b0EXE_CALLREG_OP_328'b11101111WriteEnable1'b1ChipEnable1'b1False_v1'b0EXE_RET_OP_168'b11101100WriteDisable1'b0ChipEnable1'b1True_v1'b1False_v1'b0EXE_RET_OP_328'b11101101WriteDisable1'b0ChipEnable1'b1True_v1'b1False_v1'b0EXE_LEAVE_OP8'b11111011WriteDisable1'b0ChipEnable1'b1False_v1'b0EXE_SIDT_OP8'b11111001WriteEnable1'b1ChipEnable1'b1True_v1'b1EXE_LIDT_OP8'b11111100WriteDisable1'b0ChipEnable1'b1True_v1'b1EXE_SGDT_OP8'b11111111WriteEnable1'b1ChipEnable1'b1True_v1'b1EXE_LGDT_OP8'b11111101WriteDisable1'b0ChipEnable1'b1True_v1'b1EXE_STR_OP8'b00000010WriteEnable1'b1ChipEnable1'b1True_v1'b1EXE_LTR_OP8'b11111110WriteDisable1'b0ChipEnable1'b1True_v1'b1EXE_SLDT_OP8'b00000001WriteEnable1'b1ChipEnable1'b1True_v1'b1EXE_LLDT_OP8'b00000011WriteDisable1'b0ChipEnable1'b1True_v1'b1ZeroWord32'h00000000False_v1'b0EXP_00EXP_11EXP_22EXP_33EXP_44EXP_55EXP_66EXP_77EXP_88EXP_99EXP_1010EXP_1111EXP_1212EXP_1313EXP_1414EXP_1515EXP_1616EXP_1717EXP_1818EXP_1919True_v1'b1EXP_3232EXP_3333EXP_3434EXP_3535EXP_3636EXP_3737EXP_3838EXP_3939EXP_4040EXP_4141EXP_4242EXP_4343EXP_4444EXP_4545EXP_4646EXP_4747True_v1'b1EXP_808'h80True_v1'b1False_v1'b0ZeroWord32'h00000000
+# end
+# entity
+mem_wb
+# storage
+db|dcpu.(10).cnf
+db|dcpu.(10).cnf
+# logic_option {
+AUTO_RAM_RECOGNITION
+ON
+}
+# case_sensitive
+# source_file
+mem_wb.v
+ff6b8caf272faaee6859c08afbf366ac
+8
+# internal_option {
+HDL_INITIAL_FANOUT_LIMIT
+OFF
+AUTO_RESOURCE_SHARING
+OFF
+AUTO_RAM_RECOGNITION
+ON
+AUTO_ROM_RECOGNITION
+ON
+IGNORE_VERILOG_INITIAL_CONSTRUCTS
+OFF
+VERILOG_CONSTANT_LOOP_LIMIT
+5000
+VERILOG_NON_CONSTANT_LOOP_LIMIT
+250
+}
+# include_file {
+defines.v
+37f3677e159f191fb35fb0f855f91e23
+}
+# hierarchies {
+openmips:openmips0|mem_wb:mem_wb0
+}
+# macro_sequence
+RegAddrBus4:0RegBus31:0RegBus6463:0RegBus6463:0RegBus6463:0RegBus6463:0RegBus6463:0RegBus6463:0RegBus6463:0RegBus6463:0RegAddrBus4:0RegBus31:0RstEnable1'b1NOPRegAddr5'b00000WriteDisable1'b0ZeroWord32'h00000000ZeroDWord64'h0000000000000000ZeroDWord64'h0000000000000000ZeroDWord64'h0000000000000000ZeroDWord64'h0000000000000000WriteDisable1'b0NOPRegAddr5'b00000WriteDisable1'b0ZeroWord32'h00000000ZeroDWord64'h0000000000000000ZeroDWord64'h0000000000000000ZeroDWord64'h0000000000000000ZeroDWord64'h0000000000000000WriteDisable1'b0Stop1'b1NoStop1'b0NOPRegAddr5'b00000WriteDisable1'b0ZeroWord32'h00000000ZeroDWord64'h0000000000000000ZeroDWord64'h0000000000000000ZeroDWord64'h0000000000000000ZeroDWord64'h0000000000000000WriteDisable1'b0Stop1'b1NOPRegAddr5'b00000WriteDisable1'b0ZeroWord32'h00000000ZeroDWord64'h0000000000000000ZeroDWord64'h0000000000000000ZeroDWord64'h0000000000000000ZeroDWord64'h0000000000000000WriteDisable1'b0
+# end
+# entity
+ctrl
+# storage
+db|dcpu.(11).cnf
+db|dcpu.(11).cnf
+# logic_option {
+AUTO_RAM_RECOGNITION
+ON
+}
+# case_sensitive
+# source_file
+ctrl.v
+39955f9bd4834ab32a633223c853b1f
+8
+# internal_option {
+HDL_INITIAL_FANOUT_LIMIT
+OFF
+AUTO_RESOURCE_SHARING
+OFF
+AUTO_RAM_RECOGNITION
+ON
+AUTO_ROM_RECOGNITION
+ON
+IGNORE_VERILOG_INITIAL_CONSTRUCTS
+OFF
+VERILOG_CONSTANT_LOOP_LIMIT
+5000
+VERILOG_NON_CONSTANT_LOOP_LIMIT
+250
+}
+# include_file {
+defines.v
+37f3677e159f191fb35fb0f855f91e23
+}
+# hierarchies {
+openmips:openmips0|ctrl:ctrl0
+}
+# macro_sequence
+RstEnable1'b1Stop1'b1Stop1'b1Stop1'b1Stop1'b1Stop1'b1
+# end
+# entity
+div
+# storage
+db|dcpu.(12).cnf
+db|dcpu.(12).cnf
+# logic_option {
+AUTO_RAM_RECOGNITION
+ON
+}
+# case_sensitive
+# source_file
+div.v
+6c394128161d6b6d2c5adb79c553919
+8
+# internal_option {
+HDL_INITIAL_FANOUT_LIMIT
+OFF
+AUTO_RESOURCE_SHARING
+OFF
+AUTO_RAM_RECOGNITION
+ON
+AUTO_ROM_RECOGNITION
+ON
+IGNORE_VERILOG_INITIAL_CONSTRUCTS
+OFF
+VERILOG_CONSTANT_LOOP_LIMIT
+5000
+VERILOG_NON_CONSTANT_LOOP_LIMIT
+250
+}
+# include_file {
+defines.v
+37f3677e159f191fb35fb0f855f91e23
+}
+# hierarchies {
+openmips:openmips0|div:div0
+}
+# macro_sequence
+RegBus31:0RegBus31:0RegBus31:0RegBus31:0RegBus6463:0RegBus31:0RegBus31:0RstEnable1'b1ZeroWord32'h00000000ZeroWord32'h00000000ZeroDWord64'h0000000000000000ZeroWord32'h00000000DIV_STATE_990True_v1'b1DIV_STATE_990DIV_STATE_01False_v1'b0DIV_STATE_23DIV_STATE_990DIV_STATE_01ZeroWord32'h00000000DIV_STATE_12DIV_STATE_12ZeroWord32'h00000000DIV_STATE_23DIV_STATE_23
+# end
+# entity
+sys64b_reg
+# storage
+db|dcpu.(13).cnf
+db|dcpu.(13).cnf
+# logic_option {
+AUTO_RAM_RECOGNITION
+ON
+}
+# case_sensitive
+# source_file
+sys64b_reg.v
+411d36a7c1defd637754cdc2f31580
+8
+# internal_option {
+HDL_INITIAL_FANOUT_LIMIT
+OFF
+AUTO_RESOURCE_SHARING
+OFF
+AUTO_RAM_RECOGNITION
+ON
+AUTO_ROM_RECOGNITION
+ON
+IGNORE_VERILOG_INITIAL_CONSTRUCTS
+OFF
+VERILOG_CONSTANT_LOOP_LIMIT
+5000
+VERILOG_NON_CONSTANT_LOOP_LIMIT
+250
+}
+# include_file {
+defines.v
+37f3677e159f191fb35fb0f855f91e23
+}
+# hierarchies {
+openmips:openmips0|sys64b_reg:sys64b_reg0
+}
+# macro_sequence
+RegBus6463:0RegBus6463:0RegBus6463:0RegBus6463:0RegBus6463:0RegBus6463:0RegBus6463:0RegBus6463:0RstEnable1'b1ZeroDWord64'h0000000000000000ZeroDWord64'h0000000000000000ZeroDWord64'h0000000000000000ZeroDWord64'h0000000000000000WriteEnable1'b1
+# end
+# entity
+expt
+# storage
+db|dcpu.(14).cnf
+db|dcpu.(14).cnf
+# logic_option {
+AUTO_RAM_RECOGNITION
+ON
+}
+# case_sensitive
+# source_file
+expt.v
+6c6068fc12f0e5b93c1b7f8adfdd9adc
+8
+# internal_option {
+HDL_INITIAL_FANOUT_LIMIT
+OFF
+AUTO_RESOURCE_SHARING
+OFF
+AUTO_RAM_RECOGNITION
+ON
+AUTO_ROM_RECOGNITION
+ON
+IGNORE_VERILOG_INITIAL_CONSTRUCTS
+OFF
+VERILOG_CONSTANT_LOOP_LIMIT
+5000
+VERILOG_NON_CONSTANT_LOOP_LIMIT
+250
+}
+# include_file {
+defines.v
+37f3677e159f191fb35fb0f855f91e23
+}
+# hierarchies {
+openmips:openmips0|expt:expt0
+}
+# macro_sequence
+ByteWidth7:0InstAddrBus31:0RegBus31:0RegBus31:0RstEnable1'b1ZeroWord32'h00000000EXP_00EXP_11EXP_22EXP_33EXP_44EXP_55EXP_66EXP_77EXP_88EXP_99EXP_1010EXP_1111EXP_1212EXP_1313EXP_1414EXP_1515EXP_1616EXP_1717EXP_1818EXP_1919EXP_3232EXP_3333EXP_3434EXP_3535EXP_3636EXP_3737EXP_3838EXP_3939EXP_4040EXP_4141EXP_4242EXP_4343EXP_4444EXP_4545EXP_4646EXP_4747EXP_808'h80ZeroWord32'h00000000RstEnable1'b1ZeroWord32'h00000000InterruptNotAssert1'b0
+# end
+# entity
+C8259A
+# storage
+db|dcpu.(15).cnf
+db|dcpu.(15).cnf
+# logic_option {
+AUTO_RAM_RECOGNITION
+ON
+}
+# case_sensitive
+# source_file
+c8259a.v
+95fde09a4e66fd1ac322fbc4ada2fdf2
+8
+# internal_option {
+HDL_INITIAL_FANOUT_LIMIT
+OFF
+AUTO_RESOURCE_SHARING
+OFF
+AUTO_RAM_RECOGNITION
+ON
+AUTO_ROM_RECOGNITION
+ON
+IGNORE_VERILOG_INITIAL_CONSTRUCTS
+OFF
+VERILOG_CONSTANT_LOOP_LIMIT
+5000
+VERILOG_NON_CONSTANT_LOOP_LIMIT
+250
+}
+# include_file {
+defines.v
+37f3677e159f191fb35fb0f855f91e23
+}
+# hierarchies {
+openmips:openmips0|C8259A:C8259A0
+}
+# macro_sequence
+ByteWidth7:0ByteWidth7:0WordWidth15:0RstEnable1'b1ZeroWord32'h00000000
+# end
+# entity
+bus_if
+# storage
+db|dcpu.(16).cnf
+db|dcpu.(16).cnf
+# logic_option {
+AUTO_RAM_RECOGNITION
+ON
+}
+# case_sensitive
+# source_file
+bus_if.v
+628741dae91d6eccd9ef808b96965ca
+8
+# internal_option {
+HDL_INITIAL_FANOUT_LIMIT
+OFF
+AUTO_RESOURCE_SHARING
+OFF
+AUTO_RAM_RECOGNITION
+ON
+AUTO_ROM_RECOGNITION
+ON
+IGNORE_VERILOG_INITIAL_CONSTRUCTS
+OFF
+VERILOG_CONSTANT_LOOP_LIMIT
+5000
+VERILOG_NON_CONSTANT_LOOP_LIMIT
+250
+}
+# include_file {
+defines.v
+37f3677e159f191fb35fb0f855f91e23
+}
+# hierarchies {
+openmips:openmips0|bus_if:dbus_if
+openmips:openmips0|bus_if:ibus_if
+}
+# macro_sequence
+RegBus31:0RegBus31:0RegBus31:0WordDataBus31:0WordAddrBus31:0 WordDataBus31:0RegBus31:0RstEnable1'b1BUS_IDLE3'b000NO1'b0WordAddrWith29NO1'b0READ1'b0	WordDataWith32ZeroWord32'h00000000BUS_IDLE3'b000False_v1'b0YES1'b1BUS_BUSY3'b001ZeroWord32'h00000000BUS_BUSY3'b001YES1'b1YES1'b1NO1'b0WordAddrWith29READ1'b0	WordDataWith32BUS_IDLE3'b000READ1'b0	BUS_WAIT_FOR_STALL3'b011	True_v1'b1BUS_IDLE3'b000NO1'b0WordAddrWith29NO1'b0READ1'b0	WordDataWith32ZeroWord32'h00000000BUS_WAIT_FOR_STALL3'b011	BUS_IDLE3'b000RstEnable1'b1NoStop1'b0ZeroWord32'h00000000NoStop1'b0BUS_IDLE3'b000False_v1'b0Stop1'b1BUS_BUSY3'b001YES1'b1NoStop1'b0READ1'b0	ZeroWord32'h00000000Stop1'b1BUS_WAIT_FOR_STALL3'b011	NoStop1'b0
+# end
+# entity
+gpio_top
+# storage
+db|dcpu.(17).cnf
+db|dcpu.(17).cnf
+# logic_option {
+AUTO_RAM_RECOGNITION
+ON
+}
+# case_sensitive
+# source_file
+gpio_top.v
+e1b51eebe6ddd19721f7912687bfcc
+8
+# internal_option {
+HDL_INITIAL_FANOUT_LIMIT
+OFF
+AUTO_RESOURCE_SHARING
+OFF
+AUTO_RAM_RECOGNITION
+ON
+AUTO_ROM_RECOGNITION
+ON
+IGNORE_VERILOG_INITIAL_CONSTRUCTS
+OFF
+VERILOG_CONSTANT_LOOP_LIMIT
+5000
+VERILOG_NON_CONSTANT_LOOP_LIMIT
+250
+}
+# include_file {
+defines.v
+37f3677e159f191fb35fb0f855f91e23
+}
+# hierarchies {
+gpio_top:gpio_top0
+}
+# macro_sequence
+GpioAddrBus1:0WordDataBus31:0WordDataBus31:0Num1616Num3232RstEnable1'b1WORD_DATA_W32	NO1'b0ZeroWord32'h00000000YES1'b1YES1'b1YES1'b1NO1'b0YES1'b1YES1'b1READ1'b0	WORD_DATA_W32	YES1'b1YES1'b1WRITE1'b1Num3232
+# end
+# entity
+uart_top
+# storage
+db|dcpu.(18).cnf
+db|dcpu.(18).cnf
+# logic_option {
+AUTO_RAM_RECOGNITION
+ON
+}
+# case_sensitive
+# source_file
+uart_top.v
+a252d26591bca3cf3a827262cc473be
+8
+# internal_option {
+HDL_INITIAL_FANOUT_LIMIT
+OFF
+AUTO_RESOURCE_SHARING
+OFF
+AUTO_RAM_RECOGNITION
+ON
+AUTO_ROM_RECOGNITION
+ON
+IGNORE_VERILOG_INITIAL_CONSTRUCTS
+OFF
+VERILOG_CONSTANT_LOOP_LIMIT
+5000
+VERILOG_NON_CONSTANT_LOOP_LIMIT
+250
+}
+# include_file {
+defines.v
+37f3677e159f191fb35fb0f855f91e23
+}
+# hierarchies {
+uart_top:uart_top0
+}
+# macro_sequence
+UartAddrBus0:0WordDataBus31:0WordDataBus31:0ByteDataBus7:0	ByteDataBus7:0	
+# end
+# entity
+uart_ctrl
+# storage
+db|dcpu.(19).cnf
+db|dcpu.(19).cnf
+# logic_option {
+AUTO_RAM_RECOGNITION
+ON
+}
+# case_sensitive
+# source_file
+uart_ctrl.v
+482c8721deea883ad9d18eec3fae71e
+8
+# internal_option {
+HDL_INITIAL_FANOUT_LIMIT
+OFF
+AUTO_RESOURCE_SHARING
+OFF
+AUTO_RAM_RECOGNITION
+ON
+AUTO_ROM_RECOGNITION
+ON
+IGNORE_VERILOG_INITIAL_CONSTRUCTS
+OFF
+VERILOG_CONSTANT_LOOP_LIMIT
+5000
+VERILOG_NON_CONSTANT_LOOP_LIMIT
+250
+}
+# include_file {
+defines.v
+37f3677e159f191fb35fb0f855f91e23
+timescale.v
+4950c6bbfdddc742be97afc0759c42a9
+}
+# hierarchies {
+uart_top:uart_top0|uart_ctrl:uart_ctrl
+}
+# macro_sequence
+UartAddrBus0:0WordDataBus31:0WordDataBus31:0ByteDataBus7:0	ByteDataBus7:0	ByteDataBus7:0	RstEnable1'b1WORD_DATA_W32	DISABLE_1'b1DISABLE1'b0DISABLE1'b0BYTE_DATA_W8	DISABLE1'b0BYTE_DATA_W8	ENABLE_1'b0ENABLE_1'b0ENABLE_1'b0DISABLE_1'b1ENABLE_1'b0ENABLE_1'b0READ1'b0	UART_ADDR_STATUS1'h0WORD_DATA_W32	UART_ADDR_DATA1'h1BYTE_DATA_W8	WORD_DATA_W32	ENABLE1'b1ENABLE1'b1ENABLE_1'b0ENABLE_1'b0WRITE1'b1UART_ADDR_STATUS1'h0UartCtrlIrqTx1ENABLE1'b1ENABLE1'b1ENABLE_1'b0ENABLE_1'b0WRITE1'b1UART_ADDR_STATUS1'h0UartCtrlIrqRx0ENABLE_1'b0ENABLE_1'b0WRITE1'b1UART_ADDR_DATA1'h1ENABLE1'b1BYTE_MSB7	LSB0	DISABLE1'b0BYTE_DATA_W8	ENABLE1'b1
+# end
+# entity
+uart_tx
+# storage
+db|dcpu.(20).cnf
+db|dcpu.(20).cnf
+# logic_option {
+AUTO_RAM_RECOGNITION
+ON
+}
+# case_sensitive
+# source_file
+uart_tx.v
+1d6347b5617d1daa9d676c2e6ffcea77
+8
+# internal_option {
+HDL_INITIAL_FANOUT_LIMIT
+OFF
+AUTO_RESOURCE_SHARING
+OFF
+AUTO_RAM_RECOGNITION
+ON
+AUTO_ROM_RECOGNITION
+ON
+IGNORE_VERILOG_INITIAL_CONSTRUCTS
+OFF
+VERILOG_CONSTANT_LOOP_LIMIT
+5000
+VERILOG_NON_CONSTANT_LOOP_LIMIT
+250
+}
+# include_file {
+defines.v
+37f3677e159f191fb35fb0f855f91e23
+timescale.v
+4950c6bbfdddc742be97afc0759c42a9
+}
+# hierarchies {
+uart_top:uart_top0|uart_tx:uart_tx
+}
+# macro_sequence
+ByteDataBus7:0	UartStateBus0:0UartDivCntBus8:0UartBitCntBus3:0ByteDataBus7:0	UART_STATE_TX1'b1ENABLE1'b1DISABLE1'b0RstEnable1'b1UART_STATE_IDLE1'b0UART_DIV_RATE9'd260UART_BIT_CNT_START4'h0WORD_DATA_W32	DISABLE1'b0UART_STOP_BIT1'b1UART_STATE_IDLE1'b0ENABLE1'b1UART_STATE_TX1'b1UART_START_BIT1'b0DISABLE1'b0UART_STATE_TX1'b1UART_DIV_CNT_W9UART_BIT_CNT_MSB4'h8UART_BIT_CNT_STOP4'h9UART_STOP_BIT1'b1UART_BIT_CNT_MSB4'h8UART_STATE_IDLE1'b0UART_BIT_CNT_START4'h0ENABLE1'b1LSB0	UART_DIV_RATE9'd260
+# end
+# entity
+uart_rx
+# storage
+db|dcpu.(21).cnf
+db|dcpu.(21).cnf
+# logic_option {
+AUTO_RAM_RECOGNITION
+ON
+}
+# case_sensitive
+# source_file
+uart_rx.v
+2bbc89ecd945663064efb2f0c1db89ee
+8
+# internal_option {
+HDL_INITIAL_FANOUT_LIMIT
+OFF
+AUTO_RESOURCE_SHARING
+OFF
+AUTO_RAM_RECOGNITION
+ON
+AUTO_ROM_RECOGNITION
+ON
+IGNORE_VERILOG_INITIAL_CONSTRUCTS
+OFF
+VERILOG_CONSTANT_LOOP_LIMIT
+5000
+VERILOG_NON_CONSTANT_LOOP_LIMIT
+250
+}
+# include_file {
+defines.v
+37f3677e159f191fb35fb0f855f91e23
+timescale.v
+4950c6bbfdddc742be97afc0759c42a9
+}
+# hierarchies {
+uart_top:uart_top0|uart_rx:uart_rx
+}
+# macro_sequence
+ByteDataBus7:0	UartStateBus0:0UartDivCntBus8:0UartBitCntBus3:0UART_STATE_IDLE1'b0ENABLE1'b1DISABLE1'b0RstEnable1'b1DISABLE1'b0BYTE_DATA_W8	UART_STATE_IDLE1'b0UART_DIV_RATE9'd260UART_BIT_CNT_W4UART_STATE_IDLE1'b0UART_START_BIT1'b0UART_STATE_RX1'b1DISABLE1'b0UART_STATE_RX1'b1UART_DIV_CNT_W9UART_BIT_CNT_STOP4'h9UART_STATE_IDLE1'b0UART_BIT_CNT_START4'h0UART_DIV_RATE9'd260UART_STOP_BIT1'b1ENABLE1'b1BYTE_MSB7	LSB0	UART_DIV_RATE9'd260
+# end
+# entity
+flash_top
+# storage
+db|dcpu.(22).cnf
+db|dcpu.(22).cnf
+# logic_option {
+AUTO_RAM_RECOGNITION
+ON
+}
+# case_sensitive
+# source_file
+flash_top.v
+1b857d241c3dff1a13ea1fbb8a9c6ad
+8
+# internal_option {
+HDL_INITIAL_FANOUT_LIMIT
+OFF
+AUTO_RESOURCE_SHARING
+OFF
+AUTO_RAM_RECOGNITION
+ON
+AUTO_ROM_RECOGNITION
+ON
+IGNORE_VERILOG_INITIAL_CONSTRUCTS
+OFF
+VERILOG_CONSTANT_LOOP_LIMIT
+5000
+VERILOG_NON_CONSTANT_LOOP_LIMIT
+250
+}
+# include_file {
+defines.v
+37f3677e159f191fb35fb0f855f91e23
+}
+# hierarchies {
+flash_top:flash_top0
+}
+# macro_sequence
+
+# end
+# entity
+bus_top
+# storage
+db|dcpu.(23).cnf
+db|dcpu.(23).cnf
+# logic_option {
+AUTO_RAM_RECOGNITION
+ON
+}
+# case_sensitive
+# source_file
+bus_top.v
+9560ce1953cb3257d6a0d1194c2f3a56
+8
+# internal_option {
+HDL_INITIAL_FANOUT_LIMIT
+OFF
+AUTO_RESOURCE_SHARING
+OFF
+AUTO_RAM_RECOGNITION
+ON
+AUTO_ROM_RECOGNITION
+ON
+IGNORE_VERILOG_INITIAL_CONSTRUCTS
+OFF
+VERILOG_CONSTANT_LOOP_LIMIT
+5000
+VERILOG_NON_CONSTANT_LOOP_LIMIT
+250
+}
+# include_file {
+defines.v
+37f3677e159f191fb35fb0f855f91e23
+}
+# hierarchies {
+bus_top:bus_top0
+}
+# macro_sequence
+WordAddrBus31:0 WordDataBus31:0WordAddrBus31:0 WordDataBus31:0WordAddrBus31:0 WordDataBus31:0WordAddrBus31:0 WordDataBus31:0WordAddrBus31:0 WordDataBus31:0WordDataBus31:0WordDataBus31:0WordDataBus31:0WordDataBus31:0WordDataBus31:0WordDataBus31:0WordDataBus31:0WordDataBus31:0WordDataBus31:0WordAddrBus31:0 
+# end
+# entity
+bus_dec
+# storage
+db|dcpu.(24).cnf
+db|dcpu.(24).cnf
+# logic_option {
+AUTO_RAM_RECOGNITION
+ON
+}
+# case_sensitive
+# source_file
+bus_dec.v
+3084fb64744e943169b689e739249d0
+8
+# internal_option {
+HDL_INITIAL_FANOUT_LIMIT
+OFF
+AUTO_RESOURCE_SHARING
+OFF
+AUTO_RAM_RECOGNITION
+ON
+AUTO_ROM_RECOGNITION
+ON
+IGNORE_VERILOG_INITIAL_CONSTRUCTS
+OFF
+VERILOG_CONSTANT_LOOP_LIMIT
+5000
+VERILOG_NON_CONSTANT_LOOP_LIMIT
+250
+}
+# include_file {
+defines.v
+37f3677e159f191fb35fb0f855f91e23
+}
+# hierarchies {
+bus_top:bus_top0|bus_dec:bus_dec0
+}
+# macro_sequence
+WordAddrBus31:0 NO1'b0NO1'b0NO1'b0NO1'b0NO1'b0NO1'b0NO1'b0NO1'b0SLAVE_00YES1'b1SLAVE_11YES1'b1SLAVE_22YES1'b1SLAVE_33YES1'b1SLAVE_44YES1'b1SLAVE_55YES1'b1SLAVE_66YES1'b1SLAVE_77YES1'b1
+# end
+# entity
+bus_ctrl
+# storage
+db|dcpu.(25).cnf
+db|dcpu.(25).cnf
+# logic_option {
+AUTO_RAM_RECOGNITION
+ON
+}
+# case_sensitive
+# source_file
+bus_ctrl.v
+3124bb733b184808493f94efe5d1972
+8
+# internal_option {
+HDL_INITIAL_FANOUT_LIMIT
+OFF
+AUTO_RESOURCE_SHARING
+OFF
+AUTO_RAM_RECOGNITION
+ON
+AUTO_ROM_RECOGNITION
+ON
+IGNORE_VERILOG_INITIAL_CONSTRUCTS
+OFF
+VERILOG_CONSTANT_LOOP_LIMIT
+5000
+VERILOG_NON_CONSTANT_LOOP_LIMIT
+250
+}
+# include_file {
+defines.v
+37f3677e159f191fb35fb0f855f91e23
+}
+# hierarchies {
+bus_top:bus_top0|bus_ctrl:bus_ctrl0
+}
+# macro_sequence
+NO1'b0NO1'b0NO1'b0NO1'b0MASTER_02'b00YES1'b1MASTER_12'b01YES1'b1MASTER_22'b10YES1'b1MASTER_32'b11		YES1'b1RstEnable1'b1MASTER_02'b00MASTER_02'b00YES1'b1MASTER_02'b00YES1'b1MASTER_12'b01YES1'b1MASTER_22'b10YES1'b1MASTER_32'b11		MASTER_12'b01YES1'b1MASTER_12'b01YES1'b1MASTER_22'b10YES1'b1MASTER_32'b11		YES1'b1MASTER_02'b00MASTER_22'b10YES1'b1MASTER_22'b10YES1'b1MASTER_32'b11		YES1'b1MASTER_02'b00YES1'b1MASTER_12'b01MASTER_32'b11		YES1'b1MASTER_32'b11		YES1'b1MASTER_02'b00YES1'b1MASTER_12'b01YES1'b1MASTER_22'b10
+# end
+# entity
+bus_master
+# storage
+db|dcpu.(26).cnf
+db|dcpu.(26).cnf
+# logic_option {
+AUTO_RAM_RECOGNITION
+ON
+}
+# case_sensitive
+# source_file
+bus_master.v
+f57874aa42d96fb53cec44fd46594b1
+8
+# internal_option {
+HDL_INITIAL_FANOUT_LIMIT
+OFF
+AUTO_RESOURCE_SHARING
+OFF
+AUTO_RAM_RECOGNITION
+ON
+AUTO_ROM_RECOGNITION
+ON
+IGNORE_VERILOG_INITIAL_CONSTRUCTS
+OFF
+VERILOG_CONSTANT_LOOP_LIMIT
+5000
+VERILOG_NON_CONSTANT_LOOP_LIMIT
+250
+}
+# include_file {
+defines.v
+37f3677e159f191fb35fb0f855f91e23
+}
+# hierarchies {
+bus_top:bus_top0|bus_master:bus_master0
+}
+# macro_sequence
+WordAddrBus31:0 WordDataBus31:0WordAddrBus31:0 WordDataBus31:0WordAddrBus31:0 WordDataBus31:0WordAddrBus31:0 WordDataBus31:0WordAddrBus31:0 WordDataBus31:0YES1'b1YES1'b1YES1'b1YES1'b1WordAddrWith29NO1'b0READ1'b0	WordDataWith32
+# end
+# entity
+bus_slave
+# storage
+db|dcpu.(27).cnf
+db|dcpu.(27).cnf
+# logic_option {
+AUTO_RAM_RECOGNITION
+ON
+}
+# case_sensitive
+# source_file
+bus_slave.v
+bce0af862db5e984c5522de91fcb9
+8
+# internal_option {
+HDL_INITIAL_FANOUT_LIMIT
+OFF
+AUTO_RESOURCE_SHARING
+OFF
+AUTO_RAM_RECOGNITION
+ON
+AUTO_ROM_RECOGNITION
+ON
+IGNORE_VERILOG_INITIAL_CONSTRUCTS
+OFF
+VERILOG_CONSTANT_LOOP_LIMIT
+5000
+VERILOG_NON_CONSTANT_LOOP_LIMIT
+250
+}
+# include_file {
+defines.v
+37f3677e159f191fb35fb0f855f91e23
+}
+# hierarchies {
+bus_top:bus_top0|bus_slave:bus_slave0
+}
+# macro_sequence
+WordDataBus31:0WordDataBus31:0WordDataBus31:0WordDataBus31:0WordDataBus31:0WordDataBus31:0WordDataBus31:0WordDataBus31:0WordDataBus31:0YES1'b1YES1'b1YES1'b1YES1'b1YES1'b1YES1'b1YES1'b1YES1'b1NO1'b0
+# end
+# entity
+lpm_mult
+# storage
+db|dcpu.(28).cnf
+db|dcpu.(28).cnf
+# case_insensitive
+# source_file
+|altera|10.1sp1|quartus|libraries|megafunctions|lpm_mult.tdf
+dbe17e53a5a2c5dca5b2165e403135ba
+7
+# user_parameter {
+AUTO_CARRY_CHAINS
+ON
+AUTO_CARRY
+USR
+IGNORE_CARRY_BUFFERS
+OFF
+IGNORE_CARRY
+USR
+AUTO_CASCADE_CHAINS
+ON
+AUTO_CASCADE
+USR
+IGNORE_CASCADE_BUFFERS
+OFF
+IGNORE_CASCADE
+USR
+LPM_WIDTHA
+32
+PARAMETER_UNKNOWN
+USR
+LPM_WIDTHB
+32
+PARAMETER_UNKNOWN
+USR
+LPM_WIDTHP
+64
+PARAMETER_UNKNOWN
+USR
+LPM_WIDTHR
+64
+PARAMETER_UNKNOWN
+USR
+LPM_WIDTHS
+1
+PARAMETER_UNKNOWN
+USR
+LPM_REPRESENTATION
+UNSIGNED
+PARAMETER_UNKNOWN
+USR
+LPM_PIPELINE
+0
+PARAMETER_UNKNOWN
+DEF
+LATENCY
+0
+PARAMETER_UNKNOWN
+DEF
+INPUT_A_IS_CONSTANT
+NO
+PARAMETER_UNKNOWN
+USR
+INPUT_B_IS_CONSTANT
+NO
+PARAMETER_UNKNOWN
+USR
+USE_EAB
+OFF
+PARAMETER_UNKNOWN
+DEF
+MAXIMIZE_SPEED
+5
+PARAMETER_UNKNOWN
+USR
+DEVICE_FAMILY
+Cyclone II
+PARAMETER_UNKNOWN
+USR
+CARRY_CHAIN
+MANUAL
+PARAMETER_UNKNOWN
+USR
+APEX20K_TECHNOLOGY_MAPPER
+LUT
+TECH_MAPPER_APEX20K
+USR
+DEDICATED_MULTIPLIER_CIRCUITRY
+AUTO
+PARAMETER_UNKNOWN
+DEF
+DEDICATED_MULTIPLIER_MIN_INPUT_WIDTH_FOR_AUTO
+0
+PARAMETER_UNKNOWN
+DEF
+DEDICATED_MULTIPLIER_MIN_OUTPUT_WIDTH_FOR_AUTO
+0
+PARAMETER_UNKNOWN
+DEF
+CBXI_PARAMETER
+mult_l8t
+PARAMETER_UNKNOWN
+USR
+INPUT_A_FIXED_VALUE
+Bx
+PARAMETER_UNKNOWN
+DEF
+INPUT_B_FIXED_VALUE
+Bx
+PARAMETER_UNKNOWN
+DEF
+USE_AHDL_IMPLEMENTATION
+OFF
+PARAMETER_UNKNOWN
+DEF
+}
+# used_port {
+result9
+-1
+3
+result8
+-1
+3
+result7
+-1
+3
+result63
+-1
+3
+result62
+-1
+3
+result61
+-1
+3
+result60
+-1
+3
+result6
+-1
+3
+result59
+-1
+3
+result58
+-1
+3
+result57
+-1
+3
+result56
+-1
+3
+result55
+-1
+3
+result54
+-1
+3
+result53
+-1
+3
+result52
+-1
+3
+result51
+-1
+3
+result50
+-1
+3
+result5
+-1
+3
+result49
+-1
+3
+result48
+-1
+3
+result47
+-1
+3
+result46
+-1
+3
+result45
+-1
+3
+result44
+-1
+3
+result43
+-1
+3
+result42
+-1
+3
+result41
+-1
+3
+result40
+-1
+3
+result4
+-1
+3
+result39
+-1
+3
+result38
+-1
+3
+result37
+-1
+3
+result36
+-1
+3
+result35
+-1
+3
+result34
+-1
+3
+result33
+-1
+3
+result32
+-1
+3
+result31
+-1
+3
+result30
+-1
+3
+result3
+-1
+3
+result29
+-1
+3
+result28
+-1
+3
+result27
+-1
+3
+result26
+-1
+3
+result25
+-1
+3
+result24
+-1
+3
+result23
+-1
+3
+result22
+-1
+3
+result21
+-1
+3
+result20
+-1
+3
+result2
+-1
+3
+result19
+-1
+3
+result18
+-1
+3
+result17
+-1
+3
+result16
+-1
+3
+result15
+-1
+3
+result14
+-1
+3
+result13
+-1
+3
+result12
+-1
+3
+result11
+-1
+3
+result10
+-1
+3
+result1
+-1
+3
+result0
+-1
+3
+datab9
+-1
+3
+datab8
+-1
+3
+datab7
+-1
+3
+datab6
+-1
+3
+datab5
+-1
+3
+datab4
+-1
+3
+datab31
+-1
+3
+datab30
+-1
+3
+datab3
+-1
+3
+datab29
+-1
+3
+datab28
+-1
+3
+datab27
+-1
+3
+datab26
+-1
+3
+datab25
+-1
+3
+datab24
+-1
+3
+datab23
+-1
+3
+datab22
+-1
+3
+datab21
+-1
+3
+datab20
+-1
+3
+datab2
+-1
+3
+datab19
+-1
+3
+datab18
+-1
+3
+datab17
+-1
+3
+datab16
+-1
+3
+datab15
+-1
+3
+datab14
+-1
+3
+datab13
+-1
+3
+datab12
+-1
+3
+datab11
+-1
+3
+datab10
+-1
+3
+datab1
+-1
+3
+datab0
+-1
+3
+dataa9
+-1
+3
+dataa8
+-1
+3
+dataa7
+-1
+3
+dataa6
+-1
+3
+dataa5
+-1
+3
+dataa4
+-1
+3
+dataa31
+-1
+3
+dataa30
+-1
+3
+dataa3
+-1
+3
+dataa29
+-1
+3
+dataa28
+-1
+3
+dataa27
+-1
+3
+dataa26
+-1
+3
+dataa25
+-1
+3
+dataa24
+-1
+3
+dataa23
+-1
+3
+dataa22
+-1
+3
+dataa21
+-1
+3
+dataa20
+-1
+3
+dataa2
+-1
+3
+dataa19
+-1
+3
+dataa18
+-1
+3
+dataa17
+-1
+3
+dataa16
+-1
+3
+dataa15
+-1
+3
+dataa14
+-1
+3
+dataa13
+-1
+3
+dataa12
+-1
+3
+dataa11
+-1
+3
+dataa10
+-1
+3
+dataa1
+-1
+3
+dataa0
+-1
+3
+}
+# macro_sequence
+
+# end
+# entity
+mult_l8t
+# storage
+db|dcpu.(29).cnf
+db|dcpu.(29).cnf
+# case_insensitive
+# source_file
+db|mult_l8t.tdf
+3e865a1398b68bf87385c8b6d6d65d
+7
+# used_port {
+result9
+-1
+3
+result8
+-1
+3
+result7
+-1
+3
+result63
+-1
+3
+result62
+-1
+3
+result61
+-1
+3
+result60
+-1
+3
+result6
+-1
+3
+result59
+-1
+3
+result58
+-1
+3
+result57
+-1
+3
+result56
+-1
+3
+result55
+-1
+3
+result54
+-1
+3
+result53
+-1
+3
+result52
+-1
+3
+result51
+-1
+3
+result50
+-1
+3
+result5
+-1
+3
+result49
+-1
+3
+result48
+-1
+3
+result47
+-1
+3
+result46
+-1
+3
+result45
+-1
+3
+result44
+-1
+3
+result43
+-1
+3
+result42
+-1
+3
+result41
+-1
+3
+result40
+-1
+3
+result4
+-1
+3
+result39
+-1
+3
+result38
+-1
+3
+result37
+-1
+3
+result36
+-1
+3
+result35
+-1
+3
+result34
+-1
+3
+result33
+-1
+3
+result32
+-1
+3
+result31
+-1
+3
+result30
+-1
+3
+result3
+-1
+3
+result29
+-1
+3
+result28
+-1
+3
+result27
+-1
+3
+result26
+-1
+3
+result25
+-1
+3
+result24
+-1
+3
+result23
+-1
+3
+result22
+-1
+3
+result21
+-1
+3
+result20
+-1
+3
+result2
+-1
+3
+result19
+-1
+3
+result18
+-1
+3
+result17
+-1
+3
+result16
+-1
+3
+result15
+-1
+3
+result14
+-1
+3
+result13
+-1
+3
+result12
+-1
+3
+result11
+-1
+3
+result10
+-1
+3
+result1
+-1
+3
+result0
+-1
+3
+datab9
+-1
+3
+datab8
+-1
+3
+datab7
+-1
+3
+datab6
+-1
+3
+datab5
+-1
+3
+datab4
+-1
+3
+datab31
+-1
+3
+datab30
+-1
+3
+datab3
+-1
+3
+datab29
+-1
+3
+datab28
+-1
+3
+datab27
+-1
+3
+datab26
+-1
+3
+datab25
+-1
+3
+datab24
+-1
+3
+datab23
+-1
+3
+datab22
+-1
+3
+datab21
+-1
+3
+datab20
+-1
+3
+datab2
+-1
+3
+datab19
+-1
+3
+datab18
+-1
+3
+datab17
+-1
+3
+datab16
+-1
+3
+datab15
+-1
+3
+datab14
+-1
+3
+datab13
+-1
+3
+datab12
+-1
+3
+datab11
+-1
+3
+datab10
+-1
+3
+datab1
+-1
+3
+datab0
+-1
+3
+dataa9
+-1
+3
+dataa8
+-1
+3
+dataa7
+-1
+3
+dataa6
+-1
+3
+dataa5
+-1
+3
+dataa4
+-1
+3
+dataa31
+-1
+3
+dataa30
+-1
+3
+dataa3
+-1
+3
+dataa29
+-1
+3
+dataa28
+-1
+3
+dataa27
+-1
+3
+dataa26
+-1
+3
+dataa25
+-1
+3
+dataa24
+-1
+3
+dataa23
+-1
+3
+dataa22
+-1
+3
+dataa21
+-1
+3
+dataa20
+-1
+3
+dataa2
+-1
+3
+dataa19
+-1
+3
+dataa18
+-1
+3
+dataa17
+-1
+3
+dataa16
+-1
+3
+dataa15
+-1
+3
+dataa14
+-1
+3
+dataa13
+-1
+3
+dataa12
+-1
+3
+dataa11
+-1
+3
+dataa10
+-1
+3
+dataa1
+-1
+3
+dataa0
+-1
+3
+}
+# macro_sequence
+
+# end
+# complete
+

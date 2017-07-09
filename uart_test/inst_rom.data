@@ -1,0 +1,53 @@
+66BC0000								//mov 	esp, 0x10000000					
+0010										  
+6668B000								//push	0x800000B0							
+0080
+66BC0000								//mov 	esp, 0x10000000					
+0010
+6668B000								//push	0x0300000B0							
+0003										
+66B80000								//mov eax, 0
+0000	 
+6683C001								//add eax, 1									loop1
+6650										//push eax
+66BC0500								//mov 	esp, 0x10000005				loop2	
+0010
+665B										//pop ebx	
+6681E320
+000000									//and ebx, 0x20
+6683FB00 								//cmp	ebx, 0
+77DC										//ja 	loop1
+EBE0										//jmp	loop2
+
+
+	  
+
+
+
+
+
+
+
+	   
+				
+
+
+
+
+
+
+
+					
+
+
+ 
+   
+  
+
+
+   
+ 
+   			
+   					
+
+  

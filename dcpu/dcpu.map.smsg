@@ -1,0 +1,2 @@
+Warning (10268): Verilog HDL information at regfile.v(52): always construct contains both blocking and non-blocking assignments
+Warning (10268): Verilog HDL information at ex_mem.v(72): always construct contains both blocking and non-blocking assignments

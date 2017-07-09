@@ -1,0 +1,22 @@
+
+State Machine - |dcpu|uart_top:uart_top0|uart_rx:uart_rx|state
+Name state.1 
+state.0 0 
+state.1 1 
+
+State Machine - |dcpu|uart_top:uart_top0|uart_tx:uart_tx|state
+Name state.1 
+state.0 0 
+state.1 1 
+
+State Machine - |dcpu|openmips:openmips0|bus_if:ibus_if|bus_state
+Name bus_state.001 bus_state.011 bus_state.000 
+bus_state.000 0 0 0 
+bus_state.001 1 0 1 
+bus_state.011 0 1 1 
+
+State Machine - |dcpu|openmips:openmips0|bus_if:dbus_if|bus_state
+Name bus_state.001 bus_state.011 bus_state.000 
+bus_state.000 0 0 0 
+bus_state.001 1 0 1 
+bus_state.011 0 1 1 

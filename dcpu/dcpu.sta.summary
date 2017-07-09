@@ -1,0 +1,309 @@
+------------------------------------------------------------
+TimeQuest Timing Analyzer Summary
+------------------------------------------------------------
+
+Type  : Slow Model Setup 'rst'
+Slack : -50.296
+TNS   : -5721.458
+
+Type  : Slow Model Setup 'openmips:openmips0|id_ex:id_ex0|ex_aluop[0]'
+Slack : -48.708
+TNS   : -7753.595
+
+Type  : Slow Model Setup 'clk'
+Slack : -43.611
+TNS   : -14158.912
+
+Type  : Slow Model Setup 'openmips:openmips0|ex:ex0|cf'
+Slack : -9.512
+TNS   : -248.863
+
+Type  : Slow Model Setup 'openmips:openmips0|bus_if:dbus_if|bus_state.001'
+Slack : -6.310
+TNS   : -173.761
+
+Type  : Slow Model Setup 'flash_top:flash_top0|ready_o'
+Slack : -4.904
+TNS   : -94.921
+
+Type  : Slow Model Setup 'openmips:openmips0|ex_mem:ex_mem0|ex_mem_exp_no_o[2]'
+Slack : -4.191
+TNS   : -355.388
+
+Type  : Slow Model Setup 'openmips:openmips0|ex_mem:ex_mem0|ex_mem_aluop_o[0]'
+Slack : -3.655
+TNS   : -197.449
+
+Type  : Slow Model Hold 'rst'
+Slack : -5.890
+TNS   : -252.911
+
+Type  : Slow Model Hold 'openmips:openmips0|id_ex:id_ex0|ex_aluop[0]'
+Slack : -5.380
+TNS   : -1013.079
+
+Type  : Slow Model Hold 'openmips:openmips0|ex:ex0|cf'
+Slack : -3.656
+TNS   : -54.445
+
+Type  : Slow Model Hold 'openmips:openmips0|ex_mem:ex_mem0|ex_mem_exp_no_o[2]'
+Slack : -3.169
+TNS   : -95.730
+
+Type  : Slow Model Hold 'openmips:openmips0|ex_mem:ex_mem0|ex_mem_aluop_o[0]'
+Slack : -3.105
+TNS   : -89.520
+
+Type  : Slow Model Hold 'clk'
+Slack : -2.756
+TNS   : -122.544
+
+Type  : Slow Model Hold 'openmips:openmips0|bus_if:dbus_if|bus_state.001'
+Slack : -0.056
+TNS   : -0.056
+
+Type  : Slow Model Hold 'flash_top:flash_top0|ready_o'
+Slack : 0.098
+TNS   : 0.000
+
+Type  : Slow Model Recovery 'openmips:openmips0|id_ex:id_ex0|ex_aluop[0]'
+Slack : -4.278
+TNS   : -173.479
+
+Type  : Slow Model Recovery 'rst'
+Slack : -1.941
+TNS   : -3.900
+
+Type  : Slow Model Recovery 'openmips:openmips0|ex_mem:ex_mem0|ex_mem_exp_no_o[2]'
+Slack : -1.616
+TNS   : -51.168
+
+Type  : Slow Model Recovery 'openmips:openmips0|bus_if:dbus_if|bus_state.001'
+Slack : -1.016
+TNS   : -5.125
+
+Type  : Slow Model Recovery 'flash_top:flash_top0|ready_o'
+Slack : -0.336
+TNS   : -1.623
+
+Type  : Slow Model Recovery 'openmips:openmips0|ex_mem:ex_mem0|ex_mem_aluop_o[0]'
+Slack : -0.263
+TNS   : -0.263
+
+Type  : Slow Model Recovery 'openmips:openmips0|ex:ex0|cf'
+Slack : 0.457
+TNS   : 0.000
+
+Type  : Slow Model Removal 'openmips:openmips0|id_ex:id_ex0|ex_aluop[0]'
+Slack : -7.664
+TNS   : -1594.759
+
+Type  : Slow Model Removal 'rst'
+Slack : -4.179
+TNS   : -179.483
+
+Type  : Slow Model Removal 'openmips:openmips0|ex:ex0|cf'
+Slack : -3.767
+TNS   : -107.141
+
+Type  : Slow Model Removal 'openmips:openmips0|ex_mem:ex_mem0|ex_mem_aluop_o[0]'
+Slack : -1.939
+TNS   : -50.622
+
+Type  : Slow Model Removal 'openmips:openmips0|ex_mem:ex_mem0|ex_mem_exp_no_o[2]'
+Slack : -0.692
+TNS   : -10.086
+
+Type  : Slow Model Removal 'openmips:openmips0|bus_if:dbus_if|bus_state.001'
+Slack : -0.647
+TNS   : -12.300
+
+Type  : Slow Model Removal 'flash_top:flash_top0|ready_o'
+Slack : -0.612
+TNS   : -14.212
+
+Type  : Slow Model Minimum Pulse Width 'openmips:openmips0|id_ex:id_ex0|ex_aluop[0]'
+Slack : -2.245
+TNS   : -4530.676
+
+Type  : Slow Model Minimum Pulse Width 'clk'
+Slack : -1.380
+TNS   : -1865.380
+
+Type  : Slow Model Minimum Pulse Width 'openmips:openmips0|ex:ex0|cf'
+Slack : -1.286
+TNS   : -182.612
+
+Type  : Slow Model Minimum Pulse Width 'rst'
+Slack : -1.222
+TNS   : -1.222
+
+Type  : Slow Model Minimum Pulse Width 'openmips:openmips0|ex_mem:ex_mem0|ex_mem_aluop_o[0]'
+Slack : -0.066
+TNS   : -9.108
+
+Type  : Slow Model Minimum Pulse Width 'flash_top:flash_top0|ready_o'
+Slack : 0.500
+TNS   : 0.000
+
+Type  : Slow Model Minimum Pulse Width 'openmips:openmips0|bus_if:dbus_if|bus_state.001'
+Slack : 0.500
+TNS   : 0.000
+
+Type  : Slow Model Minimum Pulse Width 'openmips:openmips0|ex_mem:ex_mem0|ex_mem_exp_no_o[2]'
+Slack : 0.500
+TNS   : 0.000
+
+Type  : Fast Model Setup 'rst'
+Slack : -21.920
+TNS   : -2450.953
+
+Type  : Fast Model Setup 'openmips:openmips0|id_ex:id_ex0|ex_aluop[0]'
+Slack : -21.454
+TNS   : -3284.802
+
+Type  : Fast Model Setup 'clk'
+Slack : -19.095
+TNS   : -5594.868
+
+Type  : Fast Model Setup 'openmips:openmips0|ex:ex0|cf'
+Slack : -3.783
+TNS   : -95.082
+
+Type  : Fast Model Setup 'openmips:openmips0|bus_if:dbus_if|bus_state.001'
+Slack : -2.425
+TNS   : -65.108
+
+Type  : Fast Model Setup 'flash_top:flash_top0|ready_o'
+Slack : -2.050
+TNS   : -35.209
+
+Type  : Fast Model Setup 'openmips:openmips0|ex_mem:ex_mem0|ex_mem_exp_no_o[2]'
+Slack : -1.754
+TNS   : -139.909
+
+Type  : Fast Model Setup 'openmips:openmips0|ex_mem:ex_mem0|ex_mem_aluop_o[0]'
+Slack : -1.721
+TNS   : -83.751
+
+Type  : Fast Model Hold 'rst'
+Slack : -2.993
+TNS   : -140.401
+
+Type  : Fast Model Hold 'openmips:openmips0|id_ex:id_ex0|ex_aluop[0]'
+Slack : -2.804
+TNS   : -471.030
+
+Type  : Fast Model Hold 'openmips:openmips0|ex:ex0|cf'
+Slack : -1.861
+TNS   : -30.076
+
+Type  : Fast Model Hold 'openmips:openmips0|ex_mem:ex_mem0|ex_mem_exp_no_o[2]'
+Slack : -1.747
+TNS   : -55.484
+
+Type  : Fast Model Hold 'clk'
+Slack : -1.615
+TNS   : -186.038
+
+Type  : Fast Model Hold 'openmips:openmips0|ex_mem:ex_mem0|ex_mem_aluop_o[0]'
+Slack : -1.419
+TNS   : -36.334
+
+Type  : Fast Model Hold 'openmips:openmips0|bus_if:dbus_if|bus_state.001'
+Slack : -0.136
+TNS   : -0.269
+
+Type  : Fast Model Hold 'flash_top:flash_top0|ready_o'
+Slack : 0.410
+TNS   : 0.000
+
+Type  : Fast Model Recovery 'openmips:openmips0|id_ex:id_ex0|ex_aluop[0]'
+Slack : -1.923
+TNS   : -87.247
+
+Type  : Fast Model Recovery 'rst'
+Slack : -0.802
+TNS   : -0.904
+
+Type  : Fast Model Recovery 'openmips:openmips0|ex_mem:ex_mem0|ex_mem_exp_no_o[2]'
+Slack : -0.463
+TNS   : -8.716
+
+Type  : Fast Model Recovery 'openmips:openmips0|bus_if:dbus_if|bus_state.001'
+Slack : -0.038
+TNS   : -0.043
+
+Type  : Fast Model Recovery 'openmips:openmips0|ex_mem:ex_mem0|ex_mem_aluop_o[0]'
+Slack : 0.141
+TNS   : 0.000
+
+Type  : Fast Model Recovery 'flash_top:flash_top0|ready_o'
+Slack : 0.157
+TNS   : 0.000
+
+Type  : Fast Model Recovery 'openmips:openmips0|ex:ex0|cf'
+Slack : 0.376
+TNS   : 0.000
+
+Type  : Fast Model Removal 'openmips:openmips0|id_ex:id_ex0|ex_aluop[0]'
+Slack : -3.187
+TNS   : -625.089
+
+Type  : Fast Model Removal 'rst'
+Slack : -1.904
+TNS   : -68.470
+
+Type  : Fast Model Removal 'openmips:openmips0|ex:ex0|cf'
+Slack : -1.561
+TNS   : -42.770
+
+Type  : Fast Model Removal 'openmips:openmips0|ex_mem:ex_mem0|ex_mem_aluop_o[0]'
+Slack : -0.830
+TNS   : -20.548
+
+Type  : Fast Model Removal 'openmips:openmips0|bus_if:dbus_if|bus_state.001'
+Slack : -0.417
+TNS   : -9.355
+
+Type  : Fast Model Removal 'flash_top:flash_top0|ready_o'
+Slack : -0.390
+TNS   : -7.984
+
+Type  : Fast Model Removal 'openmips:openmips0|ex_mem:ex_mem0|ex_mem_exp_no_o[2]'
+Slack : -0.328
+TNS   : -4.781
+
+Type  : Fast Model Minimum Pulse Width 'clk'
+Slack : -1.380
+TNS   : -1865.380
+
+Type  : Fast Model Minimum Pulse Width 'rst'
+Slack : -1.222
+TNS   : -1.222
+
+Type  : Fast Model Minimum Pulse Width 'openmips:openmips0|id_ex:id_ex0|ex_aluop[0]'
+Slack : -0.698
+TNS   : -1027.300
+
+Type  : Fast Model Minimum Pulse Width 'openmips:openmips0|ex:ex0|cf'
+Slack : -0.274
+TNS   : -38.908
+
+Type  : Fast Model Minimum Pulse Width 'openmips:openmips0|ex_mem:ex_mem0|ex_mem_aluop_o[0]'
+Slack : 0.257
+TNS   : 0.000
+
+Type  : Fast Model Minimum Pulse Width 'flash_top:flash_top0|ready_o'
+Slack : 0.500
+TNS   : 0.000
+
+Type  : Fast Model Minimum Pulse Width 'openmips:openmips0|bus_if:dbus_if|bus_state.001'
+Slack : 0.500
+TNS   : 0.000
+
+Type  : Fast Model Minimum Pulse Width 'openmips:openmips0|ex_mem:ex_mem0|ex_mem_exp_no_o[2]'
+Slack : 0.500
+TNS   : 0.000
+
+------------------------------------------------------------

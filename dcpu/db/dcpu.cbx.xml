@@ -1,0 +1,6 @@
+<?xml version="1.0" ?>
+<LOG_ROOT>
+	<PROJECT NAME="dcpu">
+		<CBX_INST_ENTRY INSTANCE_NAME="|dcpu|openmips:openmips0|ex:ex0|lpm_mult:Mult0" CBX_FILE_NAME="mult_l8t.tdf"/>
+	</PROJECT>
+</LOG_ROOT>
